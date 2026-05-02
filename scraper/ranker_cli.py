@@ -101,8 +101,6 @@ def rank_jobs():
             else:
                 score = 1
                 
-        # Bonus for specific companies from CV/Preferences if applicable (not specified in protocol but good)
-        
         job['score'] = score
 
     # Sort jobs by score (highest first)
