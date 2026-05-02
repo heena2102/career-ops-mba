@@ -24,7 +24,6 @@ class JobDashboard {
         document.getElementById('location-filter').addEventListener('change', () => this.filterJobs());
         document.getElementById('source-filter').addEventListener('change', () => this.filterJobs());
         document.getElementById('job-type-filter').addEventListener('change', () => this.filterJobs());
-        document.getElementById('sort-by').addEventListener('change', () => this.filterJobs());
 
         // Buttons
         document.getElementById('clear-filters').addEventListener('click', () => this.clearFilters());
@@ -76,7 +75,6 @@ class JobDashboard {
         const location = document.getElementById('location-filter').value;
         const source = document.getElementById('source-filter').value;
         const jobType = document.getElementById('job-type-filter').value;
-        const sortBy = document.getElementById('sort-by').value;
 
         this.filteredJobs = this.allJobs.filter(job => {
             const matchesSearch = 
@@ -97,33 +95,12 @@ class JobDashboard {
             return matchesSearch && matchesLocation && matchesSource && matchesJobType;
         });
 
-        // Apply Sorting
-        if (sortBy === 'score') {
-            this.filteredJobs.sort((a, b) => (b.score || 0) - (a.score || 0));
-        } else if (sortBy === 'published_at') {
-            this.filteredJobs.sort((a, b) => {
-                // If date is 'NA', treat as very old (0)
-                const dateA = a.published_at === 'NA' ? new Date(0) : new Date(a.published_at);
-                const dateB = b.published_at === 'NA' ? new Date(0) : new Date(b.published_at);
-                if (dateB - dateA !== 0) return dateB - dateA;
-                return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
-            });
-        } else if (sortBy === 'discovered_at') {
-            this.filteredJobs.sort((a, b) => {
-                const dateA = a.discovered_at === 'NA' ? new Date(0) : new Date(a.discovered_at);
-                const dateB = b.discovered_at === 'NA' ? new Date(0) : new Date(b.discovered_at);
-                if (dateB - dateA !== 0) return dateB - dateA;
-                return new Date(b.published_at === 'NA' ? 0 : b.published_at) - new Date(a.published_at === 'NA' ? 0 : a.published_at);
-            });
-        }
-
         this.renderJobs();
     }
 
     renderJobs() {
         const container = document.getElementById('jobs-grid');
         const noResults = document.getElementById('no-results');
-        const sortBy = document.getElementById('sort-by').value;
 
         if (this.filteredJobs.length === 0) {
             container.innerHTML = '';
@@ -132,49 +109,7 @@ class JobDashboard {
         }
 
         noResults.style.display = 'none';
-
-        if (sortBy === 'score') {
-            container.innerHTML = this.filteredJobs.map(job => this.createJobCard(job)).join('');
-        } else {
-            // Group by date
-            const groups = {};
-            this.filteredJobs.forEach(job => {
-                const date = job[sortBy] || 'NA';
-                if (!groups[date]) groups[date] = [];
-                groups[date].push(job);
-            });
-
-            // Get sorted dates (descending, NA at end)
-            const sortedDates = Object.keys(groups).sort((a, b) => {
-                if (a === 'NA') return 1;
-                if (b === 'NA') return -1;
-                return new Date(b) - new Date(a);
-            });
-
-            let html = '';
-            sortedDates.forEach(date => {
-                let dateLabel = '';
-                if (date === 'NA') {
-                    dateLabel = 'Date - NA';
-                } else {
-                    const d = new Date(date);
-                    const day = String(d.getDate()).padStart(2, '0');
-                    const month = String(d.getMonth() + 1).padStart(2, '0');
-                    const year = d.getFullYear();
-                    dateLabel = `Date - ${day}-${month}-${year}`;
-                }
-
-                html += `
-                    <div class="date-section">
-                        <h2 class="date-header">${dateLabel}</h2>
-                        <div class="date-jobs-grid">
-                            ${groups[date].map(job => this.createJobCard(job)).join('')}
-                        </div>
-                    </div>
-                `;
-            });
-            container.innerHTML = html;
-        }
+        container.innerHTML = this.filteredJobs.map(job => this.createJobCard(job)).join('');
 
         // Attach save button listeners
         document.querySelectorAll('.save-job-btn').forEach(btn => {
@@ -185,12 +120,11 @@ class JobDashboard {
         });
 
         // Attach view details listeners
-        document.querySelectorAll('.job-card').forEach((card) => {
+        document.querySelectorAll('.job-card').forEach((card, index) => {
             card.addEventListener('click', (event) => {
+                // Don't open modal if clicking buttons
                 if (event.target.closest('.job-actions')) return;
-                const jobId = card.querySelector('.save-job-btn').dataset.jobId;
-                const job = this.allJobs.find(j => this.getJobId(j) === jobId);
-                if (job) this.showJobDetails(job);
+                this.showJobDetails(this.filteredJobs[index]);
             });
         });
     }
@@ -208,15 +142,8 @@ class JobDashboard {
             rankingClass = 'low-score';
         }
 
-        const pubDate = job.published_at ? new Date(job.published_at).toLocaleDateString('en-GB') : 'N/A';
-        const discDate = job.discovered_at ? new Date(job.discovered_at).toLocaleDateString('en-GB') : 'N/A';
-
         return `
             <div class="job-card ${isSaved ? 'saved' : ''} ${rankingClass}">
-                <div class="job-dates">
-                    <span>🗓️ Published: ${pubDate}</span>
-                    <span>🔍 Scanned: ${discDate}</span>
-                </div>
                 ${score > 0 ? `<div class="job-score">🎯 Match Score: ${score}/5</div>` : ''}
                 <div class="job-header">
                     <h3 class="job-title">${this.escapeHtml(job.title)}</h3>

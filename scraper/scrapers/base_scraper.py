@@ -40,7 +40,6 @@ class BaseScraper(ABC):
     
     def standardize_job(self, job: Dict) -> Dict:
         """Standardize job data format"""
-        from datetime import datetime
         return {
             "title": job.get("title", "").strip(),
             "company": job.get("company", "").strip(),
@@ -51,6 +50,4 @@ class BaseScraper(ABC):
             "source": self.name,
             "job_type": job.get("job_type", "").strip(),
             "description": job.get("description", "")[:500].strip(),  # Truncate description
-            "published_at": job.get("published_at", datetime.now().strftime("%Y-%m-%d")),
-            "discovered_at": datetime.now().strftime("%Y-%m-%d"),
         }

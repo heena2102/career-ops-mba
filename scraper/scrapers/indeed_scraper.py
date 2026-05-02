@@ -60,12 +60,6 @@ class IndeedScraper(BaseScraper):
                                 link_elem = card.find_element(By.CSS_SELECTOR, "h2.jobTitle a")
                                 job_url = link_elem.get_attribute("href")
                                 
-                                try:
-                                    date_elem = card.find_element(By.CSS_SELECTOR, "span.date")
-                                    published_text = date_elem.text
-                                except:
-                                    published_text = None
-                                
                                 job_data = {
                                     "title": title_elem.get_attribute("title"),
                                     "company": company_elem.text,
@@ -74,8 +68,7 @@ class IndeedScraper(BaseScraper):
                                     "salary": "Not disclosed",
                                     "url": job_url,
                                     "job_type": "Full-time",
-                                    "description": f"View on Indeed: {title_elem.get_attribute('title')} at {company_elem.text}",
-                                    "published_at": published_text
+                                    "description": f"View on Indeed: {title_elem.get_attribute('title')} at {company_elem.text}"
                                 }
                                 all_jobs.append(self.standardize_job(job_data))
                             except Exception as e:
