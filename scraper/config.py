@@ -68,3 +68,19 @@ TRACKED_COMPANIES = [
     {"name": "Yelp", "board_type": "greenhouse", "board_token": "yelp"},
     {"name": "Asana", "board_type": "greenhouse", "board_token": "asana"}
 ]
+
+# Large Enterprises (Proprietary ATS) tracked via aggregators / specific APIs
+ENTERPRISE_COMPANIES = [
+    "JPMorgan Chase",
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "McKinsey",
+    "BCG",
+    "Bain",
+    "Google",
+    "Microsoft",
+    "Apple",
+    "Mastercard",
+    "Barclays",
+    "American Express"
+]
