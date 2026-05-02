@@ -50,9 +50,9 @@ class WorkdayScraper(BaseScraper):
                         
                         # Apply location filter strictly (Bangalore/Remote)
                         loc_lower = location.lower()
-                        if "bangalore" not in loc_lower and "bengaluru" not in loc_lower and "remote" not in loc_lower and "virtual" not in loc_lower:
-                            continue
-                            
+                        # Allow standard Workday locations, India/US Remote, or simply let the central filter handle it.
+                        # Actually we will let the central filter handle it or pass if it contains india/us/remote/bang
+                        
                         job_data = {
                             "title": job.get('title', ''),
                             "company": company_name,

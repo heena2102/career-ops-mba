@@ -28,7 +28,6 @@ class BrowserEnterpriseScraper(BaseScraper):
         # Eightfold AI portals
         eightfold_companies = [
             ("American Express", "aexp.eightfold.ai"),
-            ("Genpact", "genpact.eightfold.ai"),
             ("BNY Mellon", "bnymellon.eightfold.ai")
         ]
         

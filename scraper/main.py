@@ -15,7 +15,7 @@ from scrapers.angellist_scraper import AngelListScraper
 from scrapers.internshala_scraper import InternShalaScraper
 from scrapers.company_scraper import CompanyScraper
 from scrapers.amazon_scraper import AmazonScraper
-from scrapers.enterprise_scraper import EnterpriseScraper
+from scrapers.browser_enterprise_scraper import BrowserEnterpriseScraper
 from scrapers.workday_scraper import WorkdayScraper
 from config import OUTPUT_FILE, FILTERS
 

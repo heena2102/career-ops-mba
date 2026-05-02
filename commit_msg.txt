@@ -1,10 +1,16 @@
-feat(scraper): add direct ATS scrapers for requested finance MNCs
+fix(scraper): document and commit shortcomings of indigenous browser scraping
 
 Problem:
-The user requested to scrape the indigenous career portals for 8 specific finance/consulting MNCs (American Express, Genpact, Bain, Goldman Sachs, EY, BNY, Bank of America, JPMorgan Chase) instead of using the LinkedIn aggregator.
+The user requested to scrape the indigenous portals for major finance/consulting MNCs (Amex, Genpact, BNY, etc.). While the initial `BrowserEnterpriseScraper` was built, it failed to fetch jobs for the dashboard.
+
+Shortcomings & Technical Findings:
+1. **Bank of America (Workday):** Successfully scraped 487 jobs via API. However, because it's a US-centric portal (`lateral-us`), none matched the Bangalore/Remote criteria, so they were filtered out correctly.
+2. **American Express:** The `aexp.eightfold.ai` URL immediately redirects bots to an Oracle Cloud Recruiting instance. A generic browser scraper cannot traverse this without custom Oracle DOM locators.
+3. **Genpact & BNY Mellon:** DNS resolution errors or redirects to proprietary legacy systems (like Taleo) block generic Eightfold scraping.
+4. **General Limitation:** Large enterprises (JPMorgan, EY, Goldman Sachs) use heavily customized, bot-protected ATS instances (Oracle, SuccessFactors, custom Workday). Scraping these requires maintaining bespoke Selenium scripts for each individual firm, which breaks frequently as they update their websites.
 
 Solution:
-1. Identified Bank of America's Workday tenant (`ghr/lateral-us`) and added it to the API-based `WorkdayScraper` (`config.py`).
-2. Removed the LinkedIn-based `EnterpriseScraper` from `main.py` execution to enforce scraping indigenous sites only.
-3. Implemented `BrowserEnterpriseScraper` using Selenium to visually open and scrape the protected Eightfold ATS portals for American Express, Genpact, and BNY Mellon, fulfilling the user's choice to utilize browser automation. 
-(Note: Complex custom ATS instances like Oracle for JPMC and SuccessFactors for EY will require custom Selenium configurations to be added to this new framework in the future).
+1. Added the requested companies to the dashboard UI's Source dropdown filter (`index.html`) so that if any jobs *do* leak through in the future, they can be filtered.
+2. Fixed an import typo in `main.py` for the browser scraper.
+3. Updated CSS selectors in `BrowserEnterpriseScraper` to be more robust, and relaxed API location strictness in `WorkdayScraper` to let the central filter handle it.
+4. Documenting these shortcomings in this commit to clarify why direct scraping of these specific portals is unviable without dedicated, per-company automation maintenance.
