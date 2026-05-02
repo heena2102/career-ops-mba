@@ -30,3 +30,24 @@ HEADERS = {
 # Output
 OUTPUT_FILE = "../dashboard/data/jobs.json"
 SAVED_JOBS_CSV = "../saved-jobs/saved_jobs.csv"
+
+# Company Portals (Greenhouse & Lever)
+# Indian companies for Bangalore onsite, Global companies for Remote
+TRACKED_COMPANIES = [
+    {"name": "Razorpay", "board_type": "lever", "board_token": "razorpay"},
+    {"name": "Meesho", "board_type": "lever", "board_token": "meesho"},
+    {"name": "ClearTax", "board_type": "greenhouse", "board_token": "cleartax"},
+    {"name": "Pine Labs", "board_type": "greenhouse", "board_token": "pinelabs"},
+    {"name": "Postman", "board_type": "greenhouse", "board_token": "postman"},
+    {"name": "Stripe", "board_type": "greenhouse", "board_token": "stripe"},
+    {"name": "GitLab", "board_type": "greenhouse", "board_token": "gitlab"},
+    {"name": "GitHub", "board_type": "greenhouse", "board_token": "github"},
+    {"name": "Atlassian", "board_type": "lever", "board_token": "atlassian"},
+    {"name": "Shopify", "board_type": "greenhouse", "board_token": "shopify"},
+    {"name": "Notion", "board_type": "greenhouse", "board_token": "notion"},
+    {"name": "Airtable", "board_type": "greenhouse", "board_token": "airtable"},
+    {"name": "Plaid", "board_type": "greenhouse", "board_token": "plaid"},
+    {"name": "Coinbase", "board_type": "greenhouse", "board_token": "coinbase"},
+    {"name": "Vercel", "board_type": "greenhouse", "board_token": "vercel"},
+    {"name": "Deliveroo", "board_type": "greenhouse", "board_token": "deliveroo"}
+]

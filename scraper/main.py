@@ -13,6 +13,7 @@ from scrapers.naukri_scraper import NaukriScraper
 from scrapers.linkedin_scraper import LinkedInScraper
 from scrapers.angellist_scraper import AngelListScraper
 from scrapers.internshala_scraper import InternShalaScraper
+from scrapers.company_scraper import CompanyScraper
 from config import OUTPUT_FILE, FILTERS
 from ranker import JobRanker
 
@@ -55,6 +56,7 @@ def scrape_all_sources() -> List[Dict]:
         LinkedInScraper(),
         # AngelListScraper(),
         InternShalaScraper(),
+        CompanyScraper(),
     ]
     
     print("\n🔍 Starting Job Scraping...\n")
