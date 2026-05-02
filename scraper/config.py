@@ -49,5 +49,22 @@ TRACKED_COMPANIES = [
     {"name": "Plaid", "board_type": "greenhouse", "board_token": "plaid"},
     {"name": "Coinbase", "board_type": "greenhouse", "board_token": "coinbase"},
     {"name": "Vercel", "board_type": "greenhouse", "board_token": "vercel"},
-    {"name": "Deliveroo", "board_type": "greenhouse", "board_token": "deliveroo"}
+    {"name": "Deliveroo", "board_type": "greenhouse", "board_token": "deliveroo"},
+    # New additions for Bangalore Onsite
+    {"name": "Swiggy", "board_type": "greenhouse", "board_token": "swiggy"},
+    {"name": "PhonePe", "board_type": "greenhouse", "board_token": "phonepe"},
+    {"name": "CRED", "board_type": "lever", "board_token": "cred"},
+    {"name": "Gojek", "board_type": "lever", "board_token": "gojek"},
+    {"name": "Uber", "board_type": "lever", "board_token": "uber"},
+    # New additions for Global Remote
+    {"name": "Zoom", "board_type": "greenhouse", "board_token": "zoom"},
+    {"name": "Figma", "board_type": "greenhouse", "board_token": "figma"},
+    {"name": "Dropbox", "board_type": "greenhouse", "board_token": "dropbox"},
+    {"name": "Reddit", "board_type": "greenhouse", "board_token": "reddit"},
+    {"name": "Discord", "board_type": "greenhouse", "board_token": "discord"},
+    {"name": "Canva", "board_type": "lever", "board_token": "canva"},
+    {"name": "Zapier", "board_type": "greenhouse", "board_token": "zapier"},
+    {"name": "Webflow", "board_type": "lever", "board_token": "webflow"},
+    {"name": "Yelp", "board_type": "greenhouse", "board_token": "yelp"},
+    {"name": "Asana", "board_type": "greenhouse", "board_token": "asana"}
 ]
