@@ -54,12 +54,12 @@ class InternShalaScraper(BaseScraper):
                     company_elem = card.select_one(".company-name")
                     location_elem = card.select_one(".location_link")
                     salary_elem = card.select_one(".salary_container .desktop")
-                    
-                    # Experience and other details are often in a specific container
-                    # We'll extract what we can
+                    date_elem = card.select_one(".status-inactive") or card.select_one(".status-success") or card.select_one(".status")
                     
                     if not title_elem or not company_elem:
                         continue
+                        
+                    published_at = date_elem.get_text(strip=True) if date_elem else "NA"
                         
                     job_data = {
                         "title": title_elem.get_text(strip=True),
@@ -69,7 +69,8 @@ class InternShalaScraper(BaseScraper):
                         "salary": salary_elem.get_text(strip=True) if salary_elem else "Not disclosed",
                         "url": self.base_url + title_elem.find_parent('a')['href'] if title_elem.find_parent('a') else url,
                         "job_type": "Full-time",
-                        "description": f"View details on Internshala: {title_elem.get_text(strip=True)} at {company_elem.get_text(strip=True)}"
+                        "description": f"View details on Internshala: {title_elem.get_text(strip=True)} at {company_elem.get_text(strip=True)}",
+                        "published_at": published_at
                     }
                     results.append(self.standardize_job(job_data))
                 except Exception as e:

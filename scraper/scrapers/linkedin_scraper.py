@@ -46,9 +46,16 @@ class LinkedInScraper(BaseScraper):
                                 company_elem = card.select_one(".base-search-card__subtitle")
                                 location_elem = card.select_one(".base-search-card__metadata .job-search-card__location")
                                 link_elem = card.select_one("a.base-card__full-link")
+                                date_elem = card.select_one(".job-search-card__listdate") or card.select_one(".job-search-card__listdate--new")
                                 
                                 if not title_elem or not company_elem or not link_elem:
                                     continue
+                                    
+                                published_at = "NA"
+                                if date_elem and date_elem.has_attr('datetime'):
+                                    published_at = date_elem['datetime']
+                                elif date_elem:
+                                    published_at = date_elem.get_text(strip=True)
                                     
                                 job_data = {
                                     "title": title_elem.get_text(strip=True),
@@ -58,7 +65,8 @@ class LinkedInScraper(BaseScraper):
                                     "salary": "Not disclosed",
                                     "url": link_elem['href'].split('?')[0],
                                     "job_type": "Full-time",
-                                    "description": f"View on LinkedIn: {title_elem.get_text(strip=True)} at {company_elem.get_text(strip=True)}"
+                                    "description": f"View on LinkedIn: {title_elem.get_text(strip=True)} at {company_elem.get_text(strip=True)}",
+                                    "published_at": published_at
                                 }
                                 all_jobs.append(self.standardize_job(job_data))
                             except Exception:

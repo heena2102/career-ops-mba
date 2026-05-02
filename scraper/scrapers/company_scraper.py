@@ -77,6 +77,11 @@ class CompanyScraper(BaseScraper):
                 
             location = job.get('categories', {}).get('location', '')
             
+            published_at = 'NA'
+            if job.get('createdAt'):
+                from datetime import datetime
+                published_at = datetime.fromtimestamp(job.get('createdAt') / 1000).strftime('%Y-%m-%d')
+            
             job_data = {
                 "title": title,
                 "company": company['name'],
@@ -85,7 +90,8 @@ class CompanyScraper(BaseScraper):
                 "salary": "Not disclosed",
                 "url": job.get('hostedUrl', ''),
                 "job_type": "Full-time",
-                "description": f"View role at {company['name']} portal."
+                "description": f"View role at {company['name']} portal.",
+                "published_at": published_at
             }
             jobs.append(self.standardize_job(job_data))
             
