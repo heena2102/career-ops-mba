@@ -74,7 +74,8 @@ WORKDAY_COMPANIES = [
     {"name": "Mastercard", "tenant": "mastercard", "portal": "CorporateCareers", "wd_instance": "wd1"},
     {"name": "Target", "tenant": "target", "portal": "targetcareers", "wd_instance": "wd5"},
     {"name": "Workday", "tenant": "workday", "portal": "Workday", "wd_instance": "wd5"},
-    {"name": "NVIDIA", "tenant": "nvidia", "portal": "NVIDIAExternalCareerSite", "wd_instance": "wd5"}
+    {"name": "NVIDIA", "tenant": "nvidia", "portal": "NVIDIAExternalCareerSite", "wd_instance": "wd5"},
+    {"name": "Bank of America", "tenant": "ghr", "portal": "lateral-us", "wd_instance": "wd1"}
 ]
 
 ENTERPRISE_COMPANIES = [

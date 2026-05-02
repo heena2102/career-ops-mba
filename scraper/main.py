@@ -62,7 +62,7 @@ def scrape_all_sources() -> List[Dict]:
         CompanyScraper(),
         AmazonScraper(),
         WorkdayScraper(),
-        EnterpriseScraper(),
+        BrowserEnterpriseScraper(),
     ]
     
     print("\n🔍 Starting Job Scraping...\n")
