@@ -20,12 +20,13 @@ from config import OUTPUT_FILE, FILTERS
 from ranker import JobRanker
 
 def deduplicate_jobs(jobs: List[Dict]) -> List[Dict]:
-    """Remove duplicate jobs based on title and company"""
+    """Remove duplicate jobs based on title, company, and URL"""
     seen = set()
     unique_jobs = []
     
     for job in jobs:
-        key = (job['title'].lower(), job['company'].lower())
+        base_url = job.get('url', '').split('?')[0].lower()
+        key = (job['title'].lower(), job['company'].lower(), base_url)
         if key not in seen:
             seen.add(key)
             unique_jobs.append(job)
@@ -41,7 +42,7 @@ def filter_jobs(jobs: List[Dict]) -> List[Dict]:
         
         # Include if Bangalore OR Remote
         is_bangalore = "bangalore" in location or "bengaluru" in location
-        is_remote = "remote" in location
+        is_remote = "remote" in location or "virtual" in location
         
         if is_bangalore or is_remote:
             filtered.append(job)
@@ -159,14 +160,16 @@ def main():
             with open(output_path, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
                 for ej in existing_data.get('jobs', []):
-                    key = (ej.get('title', '').lower(), ej.get('company', '').lower())
+                    base_url = ej.get('url', '').split('?')[0].lower()
+                    key = (ej.get('title', '').lower(), ej.get('company', '').lower(), base_url)
                     existing_jobs_map[key] = ej
         except Exception as e:
             print(f"Error loading existing jobs: {e}")
             
     today_str = datetime.now().strftime("%Y-%m-%d")
     for job in final_jobs:
-        key = (job.get('title', '').lower(), job.get('company', '').lower())
+        base_url = job.get('url', '').split('?')[0].lower()
+        key = (job.get('title', '').lower(), job.get('company', '').lower(), base_url)
         existing_job = existing_jobs_map.get(key)
         
         new_published = job.get('published_at', 'NA')
