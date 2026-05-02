@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA Job Dashboard | Career-Ops</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎓 MBA Job Dashboard</h1>
+                <p class="subtitle">Find your next opportunity in Bangalore or Remote</p>
+            </div>
+            <div class="header-stats">
+                <span class="stat-item">
+                    <strong id="total-jobs">0</strong>
+                    <span>Total Jobs</span>
+                </span>
+                <span class="stat-item">
+                    <strong id="saved-jobs">0</strong>
+                    <span>Saved Jobs</span>
+                </span>
+            </div>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="🔍 Search by title, company, or location..."
+                    class="search-input"
+                >
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="location-filter">📍 Location:</label>
+                    <select id="location-filter">
+                        <option value="all">All Locations</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="remote">Remote</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label for="source-filter">🏢 Source:</label>
+                    <select id="source-filter">
+                        <option value="all">All Sources</option>
+                        <option value="Indeed">Indeed</option>
+                        <option value="Naukri">Naukri</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="AngelList">AngelList</option>
+                        <option value="Internshala">Internshala</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label for="job-type-filter">💼 Type:</label>
+                    <select id="job-type-filter">
+                        <option value="all">All Types</option>
+                        <option value="Full-time">Full-time</option>
+                        <option value="Internship">Internship</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-secondary" id="clear-filters">Clear Filters</button>
+                <button class="btn btn-primary" id="export-btn">💾 Export Saved Jobs</button>
+            </div>
+        </div>
+
+        <!-- Jobs Grid -->
+        <div class="jobs-container">
+            <div id="jobs-grid" class="jobs-grid">
+                <!-- Jobs will be inserted here by JavaScript -->
+            </div>
+            <div id="no-results" class="no-results" style="display:none;">
+                <p>No jobs found. Try adjusting your filters.</p>
+            </div>
+            <div id="loading" class="loading" style="display:none;">
+                <p>Loading jobs...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for job details -->
+    <div id="job-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="./data/jobs.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

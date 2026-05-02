@@ -1,0 +1,83 @@
+# Career-Ops Profile Configuration
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Heena Kauser"
+  email: "heena.kauser@mba.christuniversity.in"
+  phone: "+917042873069"
+  location: "Bangalore, India"
+  linkedin: "linkedin.com/in/heena-kauser-974014196"
+  portfolio_url: "NA"
+  github: "github.com/heena2102"
+  twitter: "NA"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Business Analyst"
+    - "Data Analyst"
+    - "Project Manager"
+    - "Program Manager"
+    - "HR Analytics"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Business Analyst"
+      level: "Associate"
+      fit: "Primary"
+    - name: "Data Analyst"
+      level: "Associate"
+      fit: "Primary"
+    - name: "Project Manager"
+      level: "Associate"
+      fit: "Primary"
+    - name: "Program Manager"
+      level: "Associate"
+      fit: "Secondary"
+    - name: "HR Analytics"
+      level: "Associate"
+      fit: "Secondary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "MBA in Business Analytics | Economics & Data-Driven Decision Making"
+  # Your exit story — what makes you unique
+  exit_story: "MBA candidate in Business Analytics with a unique blend of economics expertise, data analysis skills, and hands-on experience in education, finance operations, and social impact initiatives. Proven ability to lead teams, drive revenue initiatives, and deliver measurable outcomes."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Data Analysis & Visualization (Excel, Power BI, R, SQL, Python)"
+    - "Student Mentorship & Large-Group Leadership (45-85 students)"
+    - "Revenue Generation & Social Impact Initiatives"
+    - "Cross-functional Collaboration & Stakeholder Management"
+    - "Academic Excellence & Team Development (4 students scored 100% in Economics)"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Revenue Initiative for Social Impact"
+      url: "NA"
+      hero_metric: "Funded water purification plant for Aashraya Old Age Home through KAT Fest stall and Munch Market food fest"
+    - name: "Academic Mentorship"
+      url: "NA"
+      hero_metric: "4 students achieved 100% in Economics board examinations"
+    - name: "Large-Scale Event Leadership"
+      url: "NA"
+      hero_metric: "Led industry visit for 45 students and full-day trip for 85 students with end-to-end logistics"
+    - name: "Budget 2026 Presentation"
+      url: "NA"
+      hero_metric: "Secured 1st prize for critical analysis and viewpoint presentation"
+    - name: "SBPDCL Organizational Study"
+      url: "NA"
+      hero_metric: "Comprehensive analysis identifying structural inefficiencies and operational improvements"
+
+compensation:
+  target_range: "14 Lakhs - 18 Lakhs"
+  currency: "INR"
+  minimum: "12 Lakhs"
+  location_flexibility: "Remote preferred, 3 days/week on-site possible. Open to 5 days/week as well."
+
+location:
+  country: "India"
+  city: "Bangalore"
+  timezone: "IST"
+  visa_status: "Indian citizen"
+
+cv:
+  output_format: "html"

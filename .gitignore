@@ -1,0 +1,22 @@
+# Ignore files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.local
+node_modules/
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated files
+dashboard/data/jobs.json
+saved-jobs/*.csv
+.coverage
+htmlcov/
