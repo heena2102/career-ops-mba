@@ -1,0 +1,28 @@
+{
+  "name": "career-ops-mba",
+  "version": "1.0.0",
+  "description": "AI-powered job scraper for MBA graduates - finds Bangalore onsite and global remote opportunities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "cd scraper && python main.py",
+    "scrape:no-rank": "cd scraper && python main.py --no-rank",
+    "dashboard": "cd dashboard && python -m http.server 8000",
+    "start": "npm run scrape",
+    "dev": "npm run scrape && npm run dashboard"
+  },
+  "keywords": [
+    "job-scraper",
+    "mba",
+    "bangalore",
+    "remote",
+    "career",
+    "jobs"
+  ],
+  "author": "Career-Ops",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristMBA2025-2027/career-ops-mba"
+  }
+}
