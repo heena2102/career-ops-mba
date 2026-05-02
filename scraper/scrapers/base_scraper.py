@@ -47,7 +47,7 @@ class BaseScraper(ABC):
             "experience": job.get("experience", "").strip(),
             "salary": job.get("salary", "").strip(),
             "url": job.get("url", "").strip(),
-            "source": self.name,
+            "source": job.get("source", self.name),
             "job_type": job.get("job_type", "").strip(),
             "description": job.get("description", "")[:500].strip(),  # Truncate description
             "published_at": str(job.get("published_at", "NA")).strip(),

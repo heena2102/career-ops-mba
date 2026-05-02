@@ -16,8 +16,8 @@ from scrapers.internshala_scraper import InternShalaScraper
 from scrapers.company_scraper import CompanyScraper
 from scrapers.amazon_scraper import AmazonScraper
 from scrapers.enterprise_scraper import EnterpriseScraper
+from scrapers.workday_scraper import WorkdayScraper
 from config import OUTPUT_FILE, FILTERS
-from ranker import JobRanker
 
 def deduplicate_jobs(jobs: List[Dict]) -> List[Dict]:
     """Remove duplicate jobs based on title, company, and URL"""
@@ -61,6 +61,7 @@ def scrape_all_sources() -> List[Dict]:
         InternShalaScraper(),
         CompanyScraper(),
         AmazonScraper(),
+        WorkdayScraper(),
         EnterpriseScraper(),
     ]
     
@@ -133,20 +134,11 @@ def main():
             if 'score' not in job:
                 job['score'] = 0
     else:
-        # Rank jobs with Gemini intelligence
-        print("\n🧠 Ranking jobs with Gemini AI...")
-        ranker = JobRanker()
-        # Rank only first 50 to save tokens/time during development
-        jobs_to_rank = unique_jobs[:50]
-        other_jobs = unique_jobs[50:]
-        
-        ranked_jobs = ranker.rank_jobs(jobs_to_rank)
-        
-        # Add default score to unranked jobs
-        for job in other_jobs:
-            job["score"] = 0
-            
-        final_jobs = ranked_jobs + other_jobs
+        print("\n🧠 Will rank jobs after saving...")
+        final_jobs = unique_jobs
+        for job in final_jobs:
+            if 'score' not in job:
+                job['score'] = 0
     
     # Sort by score (descending)
     final_jobs.sort(key=lambda x: x.get("score", 0), reverse=True)

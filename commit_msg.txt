@@ -1,9 +1,11 @@
-fix(dashboard): show unranked status for unscored jobs
+feat(scraper): add workday scraper for big MNCs
 
 Problem:
-Job cards were not displaying any ranking information when their score was 0 (unranked), causing confusion. Also, the deprecated `scraper/ranker.py` file was still present in the repository.
+Major enterprise companies like Target, NVIDIA, Mastercard, and Workday use Workday's proprietary ATS, which was not being directly scraped. When scraped, the generic source name "WorkdayPortals" hid the specific company names from the dashboard filters.
 
 Solution:
-1. Updated the dashboard UI (`app.js`, `styles.css`) to explicitly show an "Unranked" badge for jobs with a score of 0.
-2. Updated `jobs.js` with the latest scraped and ranked job data.
-3. Removed the deprecated `scraper/ranker.py` script.
+1. Created `WorkdayScraper` to interact directly with the Workday JSON API for a configurable list of tenants.
+2. Updated `config.py` with `WORKDAY_COMPANIES` (Mastercard, Target, Workday, NVIDIA).
+3. Modified `base_scraper.py` to allow individual jobs to specify their own source instead of forcing the scraper's generic name.
+4. Updated `dashboard/index.html` to include the specific Workday companies in the Source filter dropdown.
+5. Re-ran the scraper and ranker to populate `jobs.js` with the new data.
