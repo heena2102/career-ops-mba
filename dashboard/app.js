@@ -102,18 +102,19 @@ class JobDashboard {
             this.filteredJobs.sort((a, b) => (b.score || 0) - (a.score || 0));
         } else if (sortBy === 'published_at') {
             this.filteredJobs.sort((a, b) => {
-                // If date is 'NA', treat as very old (0)
-                const dateA = a.published_at === 'NA' ? new Date(0) : new Date(a.published_at);
-                const dateB = b.published_at === 'NA' ? new Date(0) : new Date(b.published_at);
-                if (dateB - dateA !== 0) return dateB - dateA;
-                return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
+                const dateA = a.published_at === 'NA' ? 0 : new Date(a.published_at).getTime();
+                const dateB = b.published_at === 'NA' ? 0 : new Date(b.published_at).getTime();
+                if (dateB !== dateA) return dateB - dateA;
+                return new Date(b.discovered_at || 0).getTime() - new Date(a.discovered_at || 0).getTime();
             });
         } else if (sortBy === 'discovered_at') {
             this.filteredJobs.sort((a, b) => {
-                const dateA = a.discovered_at === 'NA' ? new Date(0) : new Date(a.discovered_at);
-                const dateB = b.discovered_at === 'NA' ? new Date(0) : new Date(b.discovered_at);
-                if (dateB - dateA !== 0) return dateB - dateA;
-                return new Date(b.published_at === 'NA' ? 0 : b.published_at) - new Date(a.published_at === 'NA' ? 0 : a.published_at);
+                const dateA = a.discovered_at === 'NA' ? 0 : new Date(a.discovered_at).getTime();
+                const dateB = b.discovered_at === 'NA' ? 0 : new Date(b.discovered_at).getTime();
+                if (dateB !== dateA) return dateB - dateA;
+                const pubA = a.published_at === 'NA' ? 0 : new Date(a.published_at).getTime();
+                const pubB = b.published_at === 'NA' ? 0 : new Date(b.published_at).getTime();
+                return pubB - pubA;
             });
         }
 
@@ -134,8 +135,10 @@ class JobDashboard {
         noResults.style.display = 'none';
 
         if (sortBy === 'score') {
+            container.className = 'jobs-grid grid-view';
             container.innerHTML = this.filteredJobs.map(job => this.createJobCard(job)).join('');
         } else {
+            container.className = 'jobs-grid';
             // Group by date
             const groups = {};
             this.filteredJobs.forEach(job => {
@@ -148,7 +151,7 @@ class JobDashboard {
             const sortedDates = Object.keys(groups).sort((a, b) => {
                 if (a === 'NA') return 1;
                 if (b === 'NA') return -1;
-                return new Date(b) - new Date(a);
+                return new Date(b).getTime() - new Date(a).getTime();
             });
 
             let html = '';
@@ -208,13 +211,17 @@ class JobDashboard {
             rankingClass = 'low-score';
         }
 
-        const pubDate = job.published_at ? new Date(job.published_at).toLocaleDateString('en-GB') : 'N/A';
-        const discDate = job.discovered_at ? new Date(job.discovered_at).toLocaleDateString('en-GB') : 'N/A';
+        const pubDate = (job.published_at && job.published_at !== 'NA') 
+            ? new Date(job.published_at).toLocaleDateString('en-GB') 
+            : 'N/A';
+        const discDate = (job.discovered_at && job.discovered_at !== 'NA') 
+            ? new Date(job.discovered_at).toLocaleDateString('en-GB') 
+            : 'N/A';
 
         return `
             <div class="job-card ${isSaved ? 'saved' : ''} ${rankingClass}">
                 <div class="job-dates">
-                    <span>🗓️ Published: ${pubDate}</span>
+                    <span>🗓️ Pub: ${pubDate}</span>
                     <span>🔍 Scanned: ${discDate}</span>
                 </div>
                 ${score > 0 ? `<div class="job-score">🎯 Match Score: ${score}/5</div>` : ''}
@@ -235,7 +242,7 @@ class JobDashboard {
 
                 <div class="job-actions">
                     <a href="${job.url}" target="_blank" class="btn btn-primary" style="text-decoration: none;">
-                        View on ${job.source}
+                        View
                     </a>
                     <button class="btn ${isSaved ? 'btn-danger' : 'btn-success'} save-job-btn" data-job-id="${jobId}">
                         ${isSaved ? '❌ Unsave' : '💾 Save'}

@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1600px; /* Increased for 4-column layout */
     margin: 0 auto;
     padding: 20px;
 }
@@ -112,7 +112,7 @@ body {
 
 .filter-group {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
     align-items: end;
 }
@@ -203,7 +203,7 @@ body {
     min-height: 300px;
 }
 
-.jobs-grid {
+.jobs-grid.grid-view {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 20px;
@@ -346,6 +346,62 @@ body {
     text-align: center;
 }
 
+/* Date Card Dates */
+.job-dates {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--gray-500);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+/* Date Sectioning */
+.date-section {
+    margin-bottom: 50px;
+    width: 100%;
+    display: block;
+}
+
+.date-header {
+    width: 100%;
+    font-size: 1.5rem;
+    color: white;
+    background: var(--primary-color);
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border-radius: var(--border-radius);
+    display: block;
+    box-shadow: var(--shadow);
+}
+
+.date-jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-height: 850px;
+    overflow-y: auto;
+    padding: 15px;
+    border: 2px solid var(--gray-200);
+    border-radius: var(--border-radius);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.date-jobs-grid::-webkit-scrollbar {
+    width: 8px;
+}
+
+.date-jobs-grid::-webkit-scrollbar-track {
+    background: var(--gray-100);
+    border-radius: 10px;
+}
+
+.date-jobs-grid::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
 .no-results,
 .loading {
     text-align: center;
@@ -392,6 +448,18 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+    .date-jobs-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .date-jobs-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -407,7 +475,7 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .jobs-grid {
+    .date-jobs-grid {
         grid-template-columns: 1fr;
     }
 
