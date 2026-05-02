@@ -14,6 +14,8 @@ from scrapers.linkedin_scraper import LinkedInScraper
 from scrapers.angellist_scraper import AngelListScraper
 from scrapers.internshala_scraper import InternShalaScraper
 from scrapers.company_scraper import CompanyScraper
+from scrapers.amazon_scraper import AmazonScraper
+from scrapers.enterprise_scraper import EnterpriseScraper
 from config import OUTPUT_FILE, FILTERS
 from ranker import JobRanker
 
@@ -57,6 +59,8 @@ def scrape_all_sources() -> List[Dict]:
         # AngelListScraper(),
         InternShalaScraper(),
         CompanyScraper(),
+        AmazonScraper(),
+        EnterpriseScraper(),
     ]
     
     print("\n🔍 Starting Job Scraping...\n")
@@ -165,12 +169,21 @@ def main():
         key = (job.get('title', '').lower(), job.get('company', '').lower())
         existing_job = existing_jobs_map.get(key)
         
+        new_published = job.get('published_at', 'NA')
+        
         if existing_job:
             job['discovered_at'] = existing_job.get('discovered_at', today_str)
-            job['published_at'] = existing_job.get('published_at', 'NA')
+            
+            # If we didn't scrape a valid date this time, fallback to the old one.
+            # But if the old one was 'NA', and we found a new one, keep the new one.
+            old_published = existing_job.get('published_at', 'NA')
+            if new_published == 'NA' or new_published == '':
+                job['published_at'] = old_published
+            else:
+                job['published_at'] = new_published
         else:
             job['discovered_at'] = today_str
-            job['published_at'] = job.get('published_at', 'NA')
+            job['published_at'] = new_published
     
     # Save to JSON
     save_jobs_to_json(final_jobs, output_path)
