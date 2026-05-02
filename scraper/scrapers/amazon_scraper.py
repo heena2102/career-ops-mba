@@ -24,12 +24,13 @@ class AmazonScraper(BaseScraper):
                 try:
                     params = {
                         "base_query": role,
-                        "loc_query": loc,
-                        "result_limit": 20,
+                        "result_limit": 30,
                         "sort": "recent"
                     }
                     
-                    if loc.lower() == "remote":
+                    if loc.lower() == "bangalore":
+                        params["city"] = "Bengaluru"
+                    elif loc.lower() == "remote":
                         params["loc_query"] = "Virtual"
                         
                     response = requests.get(self.base_url, params=params, timeout=10)
@@ -38,10 +39,12 @@ class AmazonScraper(BaseScraper):
                         
                     data = response.json()
                     for job in data.get('jobs', []):
+                        location = job.get('location', '')
+                        
                         job_data = {
                             "title": job.get('title', ''),
                             "company": "Amazon",
-                            "location": "Remote" if loc.lower() == "remote" else job.get('location', ''),
+                            "location": location,
                             "experience": "0-3 years", # difficult to parse from Amazon easily, assume matching
                             "salary": "Not disclosed",
                             "url": f"https://www.amazon.jobs{job.get('job_path', '')}",
