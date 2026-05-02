@@ -1,0 +1,9 @@
+fix(dashboard): show unranked status for unscored jobs
+
+Problem:
+Job cards were not displaying any ranking information when their score was 0 (unranked), causing confusion. Also, the deprecated `scraper/ranker.py` file was still present in the repository.
+
+Solution:
+1. Updated the dashboard UI (`app.js`, `styles.css`) to explicitly show an "Unranked" badge for jobs with a score of 0.
+2. Updated `jobs.js` with the latest scraped and ranked job data.
+3. Removed the deprecated `scraper/ranker.py` script.

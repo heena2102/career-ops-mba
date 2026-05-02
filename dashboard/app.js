@@ -204,7 +204,7 @@ class JobDashboard {
         const score = job.score || 0;
         
         // Ranking styles
-        let rankingClass = '';
+        let rankingClass = 'unranked';
         if (score >= 4) {
             rankingClass = 'high-score';
         } else if (score > 0) {
@@ -224,7 +224,7 @@ class JobDashboard {
                     <span>🗓️ Pub: ${pubDate}</span>
                     <span>🔍 Scanned: ${discDate}</span>
                 </div>
-                ${score > 0 ? `<div class="job-score">🎯 Match Score: ${score}/5</div>` : ''}
+                <div class="job-score">🎯 Match Score: ${score > 0 ? score + '/5' : 'Unranked'}</div>
                 <div class="job-header">
                     <h3 class="job-title">${this.escapeHtml(job.title)}</h3>
                     <p class="job-company">${this.escapeHtml(job.company)}</p>

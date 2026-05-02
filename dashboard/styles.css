@@ -265,6 +265,11 @@ body {
     color: white;
 }
 
+.unranked .job-score {
+    background: var(--gray-300);
+    color: var(--gray-700);
+}
+
 .job-card.saved {
     background: #eff6ff;
 }
