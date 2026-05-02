@@ -101,20 +101,19 @@ class JobDashboard {
         if (sortBy === 'score') {
             this.filteredJobs.sort((a, b) => (b.score || 0) - (a.score || 0));
         } else if (sortBy === 'published_at') {
-            // Sort by published_at (recent first), then by discovered_at (recent first)
             this.filteredJobs.sort((a, b) => {
-                const dateA = new Date(a.published_at || 0);
-                const dateB = new Date(b.published_at || 0);
+                // If date is 'NA', treat as very old (0)
+                const dateA = a.published_at === 'NA' ? new Date(0) : new Date(a.published_at);
+                const dateB = b.published_at === 'NA' ? new Date(0) : new Date(b.published_at);
                 if (dateB - dateA !== 0) return dateB - dateA;
                 return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
             });
         } else if (sortBy === 'discovered_at') {
-            // Sort by discovered_at (recent first), then by published_at (recent first)
             this.filteredJobs.sort((a, b) => {
-                const dateA = new Date(a.discovered_at || 0);
-                const dateB = new Date(b.discovered_at || 0);
+                const dateA = a.discovered_at === 'NA' ? new Date(0) : new Date(a.discovered_at);
+                const dateB = b.discovered_at === 'NA' ? new Date(0) : new Date(b.discovered_at);
                 if (dateB - dateA !== 0) return dateB - dateA;
-                return new Date(b.published_at || 0) - new Date(a.published_at || 0);
+                return new Date(b.published_at === 'NA' ? 0 : b.published_at) - new Date(a.published_at === 'NA' ? 0 : a.published_at);
             });
         }
 
@@ -140,17 +139,31 @@ class JobDashboard {
             // Group by date
             const groups = {};
             this.filteredJobs.forEach(job => {
-                const date = job[sortBy] || 'Unknown Date';
+                const date = job[sortBy] || 'NA';
                 if (!groups[date]) groups[date] = [];
                 groups[date].push(job);
             });
 
-            // Get sorted dates (descending)
-            const sortedDates = Object.keys(groups).sort((a, b) => new Date(b) - new Date(a));
+            // Get sorted dates (descending, NA at end)
+            const sortedDates = Object.keys(groups).sort((a, b) => {
+                if (a === 'NA') return 1;
+                if (b === 'NA') return -1;
+                return new Date(b) - new Date(a);
+            });
 
             let html = '';
             sortedDates.forEach(date => {
-                const dateLabel = date === 'Unknown Date' ? date : new Date(date).toLocaleDateString('en-GB');
+                let dateLabel = '';
+                if (date === 'NA') {
+                    dateLabel = 'Date - NA';
+                } else {
+                    const d = new Date(date);
+                    const day = String(d.getDate()).padStart(2, '0');
+                    const month = String(d.getMonth() + 1).padStart(2, '0');
+                    const year = d.getFullYear();
+                    dateLabel = `Date - ${day}-${month}-${year}`;
+                }
+
                 html += `
                     <div class="date-section">
                         <h2 class="date-header">${dateLabel}</h2>

@@ -7,7 +7,7 @@ def parse_date(date_str):
     import re
     
     if not date_str:
-        return datetime.now().strftime("%Y-%m-%d")
+        return 'NA'
     
     date_str = date_str.lower()
     
@@ -37,7 +37,7 @@ def parse_date(date_str):
         months = int(months_match.group(1))
         return (now - timedelta(days=months*30)).strftime("%Y-%m-%d")
         
-    return now.strftime("%Y-%m-%d")
+    return 'NA'
 
 def rank_jobs():
     jobs_path = '../dashboard/data/jobs.json'
