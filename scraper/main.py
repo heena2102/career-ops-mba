@@ -146,8 +146,33 @@ def main():
     # Sort by score (descending)
     final_jobs.sort(key=lambda x: x.get("score", 0), reverse=True)
     
-    # Save to JSON
     output_path = os.path.join(os.path.dirname(__file__), OUTPUT_FILE)
+
+    # Load existing jobs to preserve dates
+    existing_jobs_map = {}
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                for ej in existing_data.get('jobs', []):
+                    key = (ej.get('title', '').lower(), ej.get('company', '').lower())
+                    existing_jobs_map[key] = ej
+        except Exception as e:
+            print(f"Error loading existing jobs: {e}")
+            
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    for job in final_jobs:
+        key = (job.get('title', '').lower(), job.get('company', '').lower())
+        existing_job = existing_jobs_map.get(key)
+        
+        if existing_job:
+            job['discovered_at'] = existing_job.get('discovered_at', today_str)
+            job['published_at'] = existing_job.get('published_at', 'NA')
+        else:
+            job['discovered_at'] = today_str
+            job['published_at'] = job.get('published_at', 'NA')
+    
+    # Save to JSON
     save_jobs_to_json(final_jobs, output_path)
     
     print("✅ Scraping complete! Open dashboard/index.html in your browser to view jobs.")
