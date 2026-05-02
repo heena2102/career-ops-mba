@@ -1,6 +1,6 @@
 window.__JOBS_DATA__ = {
-  "total_jobs": 407,
-  "last_updated": "2026-05-02T00:06:23.341087",
+  "total_jobs": 406,
+  "last_updated": "2026-05-02T07:16:29.553228",
   "jobs": [
     {
       "title": "Project Manager \u2013 Product & Technology",
@@ -8,10 +8,12 @@ window.__JOBS_DATA__ = {
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=68842fac9ead9e46&bb=7Op3GWw2V-bqjZRCA5Si7NJnOmYYgF0iOk-QT0CQ8Pqqp_1OwfbgUudo9eag8BuWTPKGBPRE0O0q91u3En_8lkYRlATNWKQ2OsFGqMqWT76lzL6BVGkgzdOpt67aRs-1&xkcb=SoCB67M3kyRwLZT4TJ0NbzkdCdPP&fccid=10af7ab93fc1d5b4&cmp=TalentRise-International&ti=Information+Technology+Manager&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=68842fac9ead9e46&bb=i1va5ODww-Ova6Ge36XSQE80fX69sLYwLeM2hN2AiCgQ4vYXRvCvSvMqYqeShKx3yxwAKCQZPF_OlLWSsCEQOCapqag4zSDeCJiVbg1PlB2sUoFno0nA-ZFsGjZ-ZmUa&xkcb=SoDV67M3kzDbPpTDGp0DbzkdCdPP&fccid=10af7ab93fc1d5b4&cmp=TalentRise-International&ti=Information+Technology+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Project Manager \u2013 Product & Technology at TalentRise International",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -24,6 +26,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Business Analyst at noon",
+      "published_at": "2026-04-23",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -36,6 +40,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Business Analyst Project Management at Deloitte",
+      "published_at": "2026-05-01",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -48,6 +54,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Business Analyst at Swiggy",
+      "published_at": "2026-04-30",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -56,10 +64,26 @@ window.__JOBS_DATA__ = {
       "location": "Bengaluru, Karnataka, India",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4384268175",
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4399632445",
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Business Analyst at Tata Consultancy Services",
+      "published_at": "2026-04-13",
+      "discovered_at": "2026-05-02",
+      "score": 5
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Rupeek",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/business-analyst-at-rupeek-4401194346",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Business Analyst at Rupeek",
+      "published_at": "2026-04-15",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -72,6 +96,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Business Analyst at noon",
+      "published_at": "2026-04-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -84,6 +110,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Data Analyst at Infosys",
+      "published_at": "2026-04-11",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -96,6 +124,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Data Analyst [Fixed Term Contract- 12 months] at LinkedIn",
+      "published_at": "2026-04-28",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -108,6 +138,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Data Analyst at EXL",
+      "published_at": "2026-04-20",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -120,18 +152,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: DATA ANALYST at Wipro",
-      "score": 5
-    },
-    {
-      "title": "Reference Data Analyst",
-      "company": "Deutsche Bank",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/reference-data-analyst-at-deutsche-bank-4401338438",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Reference Data Analyst at Deutsche Bank",
+      "published_at": "2026-04-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -144,6 +166,22 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Data Analyst at hackajob",
+      "published_at": "2026-04-27",
+      "discovered_at": "2026-05-02",
+      "score": 5
+    },
+    {
+      "title": "Reference Data Analyst",
+      "company": "Deutsche Bank",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/reference-data-analyst-at-deutsche-bank-4401338438",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Reference Data Analyst at Deutsche Bank",
+      "published_at": "2026-04-13",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -156,18 +194,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Data Analyst at FedEx",
-      "score": 5
-    },
-    {
-      "title": "Data Analyst \u2013 SQL/Power BI",
-      "company": "Innover Digital",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-%E2%80%93-sql-power-bi-at-innover-digital-4395942366",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Data Analyst \u2013 SQL/Power BI at Innover Digital",
+      "published_at": "2026-04-16",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -180,18 +208,36 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Data Analyst at Capgemini",
+      "published_at": "2026-04-16",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
-      "title": "Data Analyst (SQL,HDFS, Hive)",
-      "company": "RiskInsight Consulting Pvt Ltd.",
+      "title": "Data Analyst \u2013 SQL/Power BI",
+      "company": "Innover Digital",
       "location": "Bengaluru, Karnataka, India",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-sql-hdfs-hive-at-riskinsight-consulting-pvt-ltd-4370337080",
+      "url": "https://in.linkedin.com/jobs/view/data-analyst-%E2%80%93-sql-power-bi-at-innover-digital-4395942366",
       "source": "LinkedIn",
       "job_type": "Full-time",
-      "description": "View on LinkedIn: Data Analyst (SQL,HDFS, Hive) at RiskInsight Consulting Pvt Ltd.",
+      "description": "View on LinkedIn: Data Analyst \u2013 SQL/Power BI at Innover Digital",
+      "published_at": "2026-04-08",
+      "discovered_at": "2026-05-02",
+      "score": 5
+    },
+    {
+      "title": "Data Analyst",
+      "company": "GreedyGame",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/data-analyst-at-greedygame-4400720616",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Data Analyst at GreedyGame",
+      "published_at": "2026-04-14",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -204,6 +250,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at Arthayan Advisory Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -216,6 +264,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at Refining Skills",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -228,6 +278,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at Refining Skills Academy",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -240,6 +292,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst  Agri-Tech at Refining Skills Academy",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -252,6 +306,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Business Analyst at Natturz Bio Kontrol Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -264,6 +320,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Financial Business Analyst at MHLondon",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -276,6 +334,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at Placidway",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -288,6 +348,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at 1DigitalStack",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -300,6 +362,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Business Analyst at Kimcc Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -312,6 +376,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Business Analyst at Vinod Lalwani",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -324,6 +390,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at THIS IS IT ARAMBOL LLP",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -336,6 +404,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at The Jain Group",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -348,18 +418,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst at Plug&Play Technologies (Toronto, Canada)",
-      "score": 5
-    },
-    {
-      "title": "Coupa Configuration Specialist/Business Analyst",
-      "company": "MSR Technology Group",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Business%20Analyst/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Coupa Configuration Specialist/Business Analyst at MSR Technology Group",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -372,6 +432,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst - Finance (Fresher- Chartered Accountant) at Ramco Systems",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -384,6 +446,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst With Asset Finance at Zensar Technologies",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -396,6 +460,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst (Finance) - 33806 at Turing",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -408,6 +474,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Business Analyst at Telecrm",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -420,6 +488,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Remote Business Analyst (Hindi) - 47745 at Turing",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -432,6 +502,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: ERP Implementation Consultant (Business Analyst) at Micronxt Solutions Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -444,6 +516,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Analyst - ERP at UnifyXperts",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -456,6 +530,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: WFH Online Data Analyst Malayalam Language at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -468,6 +544,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: WFH Online Data Analyst Marathi Language at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -480,6 +558,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: WFH Online Data Analyst Gujarati Language at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -492,6 +572,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Online Data Analyst - Telugu Speakers at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -504,6 +586,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Malayalam Speaker Online Data Analyst at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -516,6 +600,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marathi Speaker Online Data Analyst at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -528,6 +614,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Gujarati Speaker Online Data Analyst at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -540,6 +628,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Punjabi-Speaking Online Data Analyst at TELUS International AI Inc. (Las Vegas, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -552,6 +642,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Catastrophe Modeling) at UpGrad Rekrut",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -564,6 +656,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst at Proof-of-Skill",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -576,6 +670,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst at PharmaForceIQ",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -588,6 +684,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Bengali Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -600,6 +698,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Punjabi Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -612,6 +712,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Odia/Oriya Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -624,6 +726,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Urdu Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -636,6 +740,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Malayalam Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -648,6 +754,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Gujarati Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -660,6 +768,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Kannada Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -672,6 +782,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Marathi Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -684,6 +796,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (English Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -696,6 +810,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Data Analyst (Telugu Speaker) at Peroptyx (Castlebar, Ireland)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -708,6 +824,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: RCM Project Manager/ Operations Manager at EMPClaims",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -720,6 +838,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Interior Project Manager at NLB PROJECT MANAGMENT (I) PRIVATE LIMITED",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -732,6 +852,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Project Manager at Ilp Ilp",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -744,6 +866,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at TOTAL SOLUTIONS INTEC PVT. LTD",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -756,6 +880,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Technical Project Manager- Martech SaaS at Warewe Consultancy Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -768,6 +894,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at QA Solvers",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -780,6 +908,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at Usiru Media",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -792,6 +922,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: CSR Project Manager at Skill Bharat Association",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -804,6 +936,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at HighScores (Atlanta, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -816,6 +950,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Mystery Shopping Project Manager at AtoZ VirtuaL Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -828,6 +964,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Technical Project Manager at Antino Labs Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -840,6 +978,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager Executive at Frequent Research Fieldwork Solutions Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -852,6 +992,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager Cum Site Engineer at OZECA",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -864,6 +1006,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at Vivify Solutions Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -876,6 +1020,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at The Influence OS",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -888,6 +1034,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at SAB MGPS SOLUTIONS PRIVATE LIMITED",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -900,6 +1048,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Project Manager at GITAM Deemed University",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -912,6 +1062,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Technical Project Manager at Invoicemart",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -924,6 +1076,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Retail Project Manager at Heniis",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -936,6 +1090,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager - MEP/Civil at Embassy Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -948,6 +1104,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: MEP Project Manager at Embassy Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -960,6 +1118,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at Dhruv Technology Solutions",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -972,6 +1132,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager at KLDiscovery",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -984,6 +1146,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager/Jr. Project Manager at Infrared Power Techsol Pvt. Ltd.",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -996,6 +1160,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Technical Project Manager at ALIQAN Technologies",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -1008,6 +1174,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager - NMACC at Jio World Centre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -1020,6 +1188,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Project Manager- Night Shift at Graygraph Technologies Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 5
     },
     {
@@ -1028,22 +1198,12 @@ window.__JOBS_DATA__ = {
       "location": "Hybrid work in Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=6a23801da9ab72fe&bb=7Op3GWw2V-bqjZRCA5Si7HqqbP0KStEcYW4WreXtX7VzMVQvdu-REF5uEvG-g9FSP6Dx3sUeBU9N2duoVrz-PK2Bpg_uboi066OMfUn4G81ek9KF0DyY-6ay09x56OVb&xkcb=SoC767M3kyRwLZT4TJ0LbzkdCdPP&fccid=9e35787f589fa60f&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=6a23801da9ab72fe&bb=i1va5ODww-Ova6Ge36XSQF-3An2OyC88jAsl6PFsVtFQlqk_IeEuBIYfPix57IiQIQOzj6lZ0DAvLAI_bodetmnX5O5n-__qUn1TuFElzdeV86Sg4jFUMDJRlmYYkS0X&xkcb=SoCy67M3kzDbPpTDGp0LbzkdCdPP&fccid=9e35787f589fa60f&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Product Manager at Cvent",
-      "score": 4
-    },
-    {
-      "title": "Product Manager",
-      "company": "Weekday",
-      "location": "Bengaluru, Karnataka",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=b28c2c7d6a1a93c1&bb=7Op3GWw2V-bqjZRCA5Si7OtzHqJX84IOlTDEjlB0-qpRNg_vsU_5f5Gdc-RrN8vwqIoI29xJbJNJvZo28VfoubKkljMpKYCPvo_Njg-brayfcVRgNAZ5IoUATkz4wQVJ&xkcb=SoAP67M3kyRwLZT4TJ0KbzkdCdPP&fccid=bddd218f3c4f6f22&vjs=3",
-      "source": "Indeed",
-      "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Weekday",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1052,10 +1212,12 @@ window.__JOBS_DATA__ = {
       "location": "Bangalore City, Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=d646b47e4ec7c57d&bb=7Op3GWw2V-bqjZRCA5Si7JgQcHRuM2IXUQThXPOtBo8v63UZ5uY_oK8Ii90J9KKjnZgFz40rBYJ4bhKsxybtYozyGWrm-vF3qiC1wkU0LmYUBK59vTMVFUTM_YBSjZT8&xkcb=SoCS67M3kyRwLZT4TJ0JbzkdCdPP&fccid=e34d8adc255d8c7a&cmp=Intellipaat-software-solutions-Pvt-Ltd&ti=Associate+Product+Manager&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=d646b47e4ec7c57d&bb=i1va5ODww-Ova6Ge36XSQN_wnFXreZmcU09_kcEwKLB-ppd6NMDk877sa0nY2qAW0dMuqFWU-K_6wF5qGcKsy5mSaejqjvDvuC5Frh7HAtGMahbhUn7h_lSbW1eb2ZPz&xkcb=SoAG67M3kzDbPpTDGp0KbzkdCdPP&fccid=e34d8adc255d8c7a&cmp=Intellipaat-software-solutions-Pvt-Ltd&ti=Associate+Product+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Assistant Product Manager at Intellipaat software solutions Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1064,10 +1226,40 @@ window.__JOBS_DATA__ = {
       "location": "Hybrid work in Bangalore City, Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=df40ac8fe6e82649&bb=7Op3GWw2V-bqjZRCA5Si7C71kV8LJqr4R_sN9I-i3ublwuTNER4u4BcBGlY1FR_aPNQYYI5kYev1tQlGYTHdn-9olCayk_GFZHGjkWyc-iSEpa6qJluSOI0p98PTy1_J&xkcb=SoAm67M3kyRwLZT4TJ0IbzkdCdPP&fccid=03dd879dc77ae112&cmp=InCred-Financial-Services-Ltd&ti=Product+Manager&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=df40ac8fe6e82649&bb=i1va5ODww-Ova6Ge36XSQMPaIKqk4aaCSDQMfvSmvoyw_R_y2LKsPKo_vowEFdRdYRLuDAJymBKSOYNOqhny0GtITwt9d9ENdduPAB2rjOOwHifRbqg2yhTqqpdzZdYA&xkcb=SoCb67M3kzDbPpTDGp0JbzkdCdPP&fccid=03dd879dc77ae112&cmp=InCred-Financial-Services-Ltd&ti=Product+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Product Manager at InCred Financial Services Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Founding Product Manager_Bangalore(Remote)",
+      "company": "Codetru",
+      "location": "Hybrid work in Bangalore City, Bengaluru, Karnataka",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.indeed.com/rc/clk?jk=fbed8bc7ea3e0210&bb=i1va5ODww-Ova6Ge36XSQDYPysAgZY-WVUCw_JYcDU-yfNkOafTX4LqlcZprxtbAVXGs3lt5JPUdnDVs7lPOiYzqDwjUfFfUJ7jbSrjUkk0yiek0upmptXavkGvr_ZOk&xkcb=SoAv67M3kzDbPpTDGp0IbzkdCdPP&fccid=753af35b4a1b8d6d&cmp=Codetru&ti=Product+Manager&vjs=3",
+      "source": "Indeed",
+      "job_type": "Full-time",
+      "description": "View on Indeed: Founding Product Manager_Bangalore(Remote) at Codetru",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Product Manager",
+      "company": "Weekday",
+      "location": "Bengaluru, Karnataka",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.indeed.com/rc/clk?jk=b28c2c7d6a1a93c1&bb=i1va5ODww-Ova6Ge36XSQG6wGUIS-YY66jOhCmOqWGFx2waWTypYTX3FcTPz81rp1iLmrzdTQM3Im5VQT3SCYPjgGbbwbYqZONbPCPtWHDmTQrfS8AJvoQlo8JI9rINa&xkcb=SoCh67M3kzDbPpTDGp0PbzkdCdPP&fccid=bddd218f3c4f6f22&vjs=3",
+      "source": "Indeed",
+      "job_type": "Full-time",
+      "description": "View on Indeed: Product Manager at Weekday",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1076,58 +1268,54 @@ window.__JOBS_DATA__ = {
       "location": "Jayanagar, Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=380020c1fa047aec&bb=7Op3GWw2V-bqjZRCA5Si7E20MTJE1EVkFboYH6YtyVOeiVUVA9cJLqonUF_MJkGQBp7cZ0WwA6qEc8brBp3SeUyerXAS_4udlujx37qJIbKyqzrgcHRcsU30Jqwrd_8n&xkcb=SoCo67M3kyRwLZT4TJ0PbzkdCdPP&fccid=8758f34e323a35b5&cmp=Modaka-Technologies&ti=Product+Manager&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=380020c1fa047aec&bb=i1va5ODww-Ova6Ge36XSQGdNkVb5js5rdmQTQGNe8g5CsHO2K3NHNW8IfBUh6gtHBefHTlZdm9smc0xcG04WDXCyFrHlbcsHzx6EAv8nu4Dy0bC3GdnVtXmk5m5ciLqw&xkcb=SoAV67M3kzDbPpTDGp0ObzkdCdPP&fccid=8758f34e323a35b5&cmp=Modaka-Technologies&ti=Product+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Product Manager at Modaka Technologies",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
-      "title": "Associate Product/Product Manager",
-      "company": "SymphonyAI",
-      "location": "Bengaluru, Karnataka",
+      "title": "Product Manager with Artium at Bangalore",
+      "company": "Artium Academy",
+      "location": "Bangalore City, Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=6a1667c2aee1fbda&bb=7Op3GWw2V-bqjZRCA5Si7J288aQPvGX_-BUhzTNleNmPvDS-TZk_kfkaac_L2SOoPqgDL2epSfNatvGWD0tRQG93Mvm95aP-NcsUmr5EYLEJp8HUIL05aJKvQmEo1jP0&xkcb=SoAc67M3kyRwLZT4TJ0ObzkdCdPP&fccid=637c4876afb3621b&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=d40fa07a40d364cd&bb=i1va5ODww-Ova6Ge36XSQArA0JUGMASz7mYG-3ZJaUo6K-ORLCqp6HCQwFeeZm16XokLvNx3kd6hBxZhSMCWb6RBFr17wntm0Ds6OdfY0fffea3VXdjITlqF4oe91CBA&xkcb=SoCI67M3kzDbPpTDGp0NbzkdCdPP&fccid=07674d5b3ec3fd06&cmp=Artium-Academy&ti=Product+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Associate Product/Product Manager at SymphonyAI",
+      "description": "View on Indeed: Product Manager with Artium at Bangalore at Artium Academy",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
-      "title": "Product Manager",
-      "company": "Kredx",
+      "title": "Senior Product Manager (Workflow Execution Platform)",
+      "company": "Formi",
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=fa99dabea11bf7a6&bb=7Op3GWw2V-bqjZRCA5Si7AM12PJSLhpv7UYDcC0h3MS8KvVOYhLpzHS_8YXz0LIzQklaBsZUbLcV-HqiNotGg7-4KkL4TZyTGDnqU7nRXtN_jV6JT2E-F1-ChSCaptxU&xkcb=SoA167M3kyRwLZT4TJ0MbzkdCdPP&fccid=4d5c6a465d0aac23&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=834bf7c0f3383556&bb=i1va5ODww-Ova6Ge36XSQLqhEO_UBaz0LpTmp5c-KBZg_2FcNBxboreEnjDkAnKZqc3YjZajqBz_mW9_46za_HaR0g0mPT5lZgHEMrvmKrUa5udnb4EoFEv9dWjHVD4R&xkcb=SoA867M3kzDbPpTDGp0MbzkdCdPP&fccid=cd55e4f7a9277479&cmp=FORMI&ti=Senior+Product+Manager&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Kredx",
+      "description": "View on Indeed: Senior Product Manager (Workflow Execution Platform) at Formi",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
-      "title": "Product Manager",
-      "company": "Recruiterflow",
+      "title": "Associate Product Manager",
+      "company": "Workspan",
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=900e4fa176a02bf8&bb=7Op3GWw2V-bqjZRCA5Si7Av9igpTsT8ck1M_JKhymvIQQGwBTL2kDv9WIhWofKJMqZE85bb09XY9vjNzxeNVEc-oULgERG9X2zmuBi88GhdP1gXRhSNsvPvCypuYK3s_&xkcb=SoDc67M3kyRwLZT4TJ0DbzkdCdPP&fccid=b264b2e5c26a4952&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=d54db703c3d173aa&bb=i1va5ODww-Ova6Ge36XSQD46E1Gt81NWUuIW9HfujS9FVT-uO1U_pIgXlXCaBcU4Sky9BmCBGZOELLbAU17yPAYt95y9vHj4O3r9sy3M3ogxhRzd8jx4sI_TvDVcvjSb&xkcb=SoBh67M3kzDbPpTDGp0CbzkdCdPP&fccid=bd6ca2bb5cbeacea&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Recruiterflow",
-      "score": 4
-    },
-    {
-      "title": "Product Manager",
-      "company": "Apna",
-      "location": "Bengaluru, Karnataka",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=6c80babd2c7ce1c9&bb=7Op3GWw2V-bqjZRCA5Si7KMKOukNjBcyOVgizElc_Y_X49YEaHVlZFcdlylKVKLaJ-5uQJ0qf37I02iJVa6XOXCXJYP-R8qnsFwEGgUQuy9hpgylE4Q90345AUk913th&xkcb=SoBo67M3kyRwLZT4TJ0CbzkdCdPP&fccid=2a77c87dc706980d&vjs=3",
-      "source": "Indeed",
-      "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Apna",
+      "description": "View on Indeed: Associate Product Manager at Workspan",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1136,70 +1324,68 @@ window.__JOBS_DATA__ = {
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=d5490001d9a9572d&bb=7Op3GWw2V-bqjZRCA5Si7DI2NufX3jKzZSaAMxg4GydkuVQbAq3jvFncFwhH-bzFeo0aafmlu07PMFBaI8hZxyeTok0zBsFEvQOAAvz7FbQFPOz83pd9PfYRF3gVVr9s&xkcb=SoD167M3kyRwLZT4TJ0BbzkdCdPP&fccid=c2a63affe8751868&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=d5490001d9a9572d&bb=i1va5ODww-Ova6Ge36XSQF4-cDZYLJDVLePYykbb5QL3yZi0DwPX0V3Y_ViHAF7QTzMNgMZOncq-j8b0LCfp5Ueb-8MAjBSsYRKh7n8XFNTmLUY4-dEkcF4ZjFIwyvWf&xkcb=SoD867M3kzDbPpTDGp0BbzkdCdPP&fccid=c2a63affe8751868&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
       "description": "View on Indeed: Product Manager - DB at Capco",
-      "score": 4
-    },
-    {
-      "title": "Assistant Product Manager",
-      "company": "Ingram Micro",
-      "location": "Bengaluru, Karnataka",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=7a3f9241de49028a&bb=7Op3GWw2V-bqjZRCA5Si7BWuY8PGN2sawjWGbkGPrhJ2RoiOqk67vm1KgPmYoKZFRDiEEtG4wMlucP1ywfgEl9mUHYzSKj9rX9n7tGRuWb5LyQU1DROxuRx8tamj-_Rv&xkcb=SoBB67M3kyRwLZT4TJ0AbzkdCdPP&fccid=70687d47d3cdf42e&vjs=3",
-      "source": "Indeed",
-      "job_type": "Full-time",
-      "description": "View on Indeed: Assistant Product Manager at Ingram Micro",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
       "title": "Product Manager",
-      "company": "Wayfair",
+      "company": "Kredx",
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=5727ba27941f4061&bb=7Op3GWw2V-bqjZRCA5Si7HERbNFnRe47PzjVw0zruak1R8fO4BS5dtCZVXTN9oTxXffOaV7C8AwS9bon2v7uM0kCrqtqr9XHiq3-2LYcGqoFlsm3Fl6oFyTHwZUaRkTg&xkcb=SoDP67M3kyRwLZT4TJ0HbzkdCdPP&fccid=95485c6456ed2114&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=fa99dabea11bf7a6&bb=i1va5ODww-Ova6Ge36XSQCU7M-HahEtnhYnYwIazuFjeFRfYhPYetZ_G46hTTFPgqVdZu-zF4Gc0A6QKCsUx98PPEEbLlW67o16t2FxLhNM744NjOv8aQwBbx8hyN-5K&xkcb=SoBI67M3kzDbPpTDGp0AbzkdCdPP&fccid=4d5c6a465d0aac23&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Wayfair",
+      "description": "View on Indeed: Product Manager at Kredx",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
-      "title": "Product Manager - Travel Technology",
-      "company": "Corefares",
-      "location": "Kammanahalli, Bengaluru, Karnataka",
+      "title": "Associate Product/Product Manager",
+      "company": "SymphonyAI",
+      "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=9c0f86067710314b&bb=7Op3GWw2V-bqjZRCA5Si7EPcIPCG7Qidkhpd2aLgWXNkO4rZ8cTjEtU9iw7bsCv_IRDF-O5ew-UYmO3CB3a7IeXHudOe8tdd5vXc5ZT-QeARVcytfSX-t9XQPE5rjvdD&xkcb=SoB767M3kyRwLZT4TJ0GbzkdCdPP&fccid=829714007356a73e&cmp=CoreFares&ti=Information+Technology+Manager&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=6a1667c2aee1fbda&bb=i1va5ODww-Ova6Ge36XSQHvRC3b5GwFWhXLNOVp0mhv_G4J8VCUYxjsNTb-CAfzZjKJ9hzNtgJCA7OE5nNfmCiZYps-MuA0a2ytMeCyWPoZDHpHT-hTg1kbdMjXGYp8T&xkcb=SoDG67M3kzDbPpTDGp0HbzkdCdPP&fccid=637c4876afb3621b&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager - Travel Technology at Corefares",
+      "description": "View on Indeed: Associate Product/Product Manager at SymphonyAI",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Product Manager - Strategy",
+      "company": "MoEngage Inc",
+      "location": "Bengaluru, Karnataka",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.indeed.com/rc/clk?jk=94b384a91b29f45e&bb=i1va5ODww-Ova6Ge36XSQMPaIKqk4aaC1ABmq_g5idXrI3XPilzUtVMF57E_8lgt3xYf9wSBTUF__Uhd9Mob5T2gx0buXpC-PN_s1zIz7cJvN6dxwx8oaY260BFRM8Rr&xkcb=SoBy67M3kzDbPpTDGp0GbzkdCdPP&fccid=6080f423b3c3cd11&vjs=3",
+      "source": "Indeed",
+      "job_type": "Full-time",
+      "description": "View on Indeed: Product Manager - Strategy at MoEngage Inc",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
       "title": "Product Manager",
-      "company": "Sitetracker",
+      "company": "Recruiterflow",
       "location": "Bengaluru, Karnataka",
       "experience": "0-3 years",
       "salary": "Not disclosed",
-      "url": "https://in.indeed.com/rc/clk?jk=554e75ff4dc72aec&bb=7Op3GWw2V-bqjZRCA5Si7Ff7jcxW6DE0OHxE6fFtM8J9575dZLa_OUPGbjp4zmVuCc1s0wQ3lZMYyEHwFx8EqBNsYkbWx-s1S76efE-fU7c4X8EgREk5-PZGJz3Nf5Uw&xkcb=SoDm67M3kyRwLZT4TJ0FbzkdCdPP&fccid=cb4dd3d6b765b6a3&vjs=3",
+      "url": "https://in.indeed.com/rc/clk?jk=900e4fa176a02bf8&bb=i1va5ODww-Ova6Ge36XSQD5sOmkVsiJgrLR7LRQNlHKQx2MxLMExu0y_YPik6hRDJObIMmCPNwpKHle0iCEOGkZ8dbm2mjdncDClqenVV3MbbuF_Ti7YASVhs0OdtPVn&xkcb=SoDv67M3kzDbPpTDGp0FbzkdCdPP&fccid=b264b2e5c26a4952&vjs=3",
       "source": "Indeed",
       "job_type": "Full-time",
-      "description": "View on Indeed: Product Manager at Sitetracker",
-      "score": 4
-    },
-    {
-      "title": "Product Manager",
-      "company": "PhonePe",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/product-manager-at-phonepe-4397787803",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Product Manager at PhonePe",
+      "description": "View on Indeed: Product Manager at Recruiterflow",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1212,6 +1398,22 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Product Manager at Tata Communications",
+      "published_at": "2026-04-24",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Product Manager",
+      "company": "PhonePe",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/product-manager-at-phonepe-4397787803",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Product Manager at PhonePe",
+      "published_at": "2026-04-27",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1224,6 +1426,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Product Manager at Deloitte",
+      "published_at": "2026-04-03",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1236,6 +1440,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Product manager 1(Credit) at Groww",
+      "published_at": "2026-04-07",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1248,6 +1454,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Product Manager - Supply Chain at Licious",
+      "published_at": "2026-04-28",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1260,6 +1468,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Product Manager, Google Pay at Google",
+      "published_at": "2026-04-24",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1272,6 +1482,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Associate Product Manager at ShareChat",
+      "published_at": "2026-04-16",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1284,6 +1496,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Product Manager - Supply Chain at Licious",
+      "published_at": "2026-04-28",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1296,6 +1510,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Healthcare Product Manager_Q1 at Infosys",
+      "published_at": "2026-04-23",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1308,18 +1524,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Product Manager at Target",
-      "score": 4
-    },
-    {
-      "title": "Strategy and Operations Manager, Commerce, Partnerships, Operations APAC",
-      "company": "Google",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/strategy-and-operations-manager-commerce-partnerships-operations-apac-at-google-4402367919",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Strategy and Operations Manager, Commerce, Partnerships, Operations APAC at Google",
+      "published_at": "2026-04-26",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1332,6 +1538,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Operations Manager at FedEx",
+      "published_at": "2026-04-14",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1344,18 +1552,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Operations Manager, Amazon at Amazon",
-      "score": 4
-    },
-    {
-      "title": "Product Manager II",
-      "company": "Flipkart Internet Pvt Ltd",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/product-manager-ii-at-flipkart-internet-pvt-ltd-4406501562",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Product Manager II at Flipkart Internet Pvt Ltd",
+      "published_at": "2026-04-19",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1368,6 +1566,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Product Manager at RR Quality Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1380,6 +1580,36 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Product Manager at The Agency Source",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Product Manager",
+      "company": "ImpactGuru",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Product%20Manager/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Product Manager at ImpactGuru",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 4
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "CredHive",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Product%20Manager/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Associate Product Manager at CredHive",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1392,6 +1622,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Product Manager at Rezolut Infotech",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1404,6 +1636,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Product Manager at Visit Health",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1416,6 +1650,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at EnGen Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1428,6 +1664,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at Grexa AI",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1440,6 +1678,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager (Consumer Tech) B2C at Artfills",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1452,6 +1692,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Product Manager at Zenda",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1464,6 +1706,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Product Manager at Talent Destination",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1476,6 +1720,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at Credit Saison India",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1488,6 +1734,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at Quickeee",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1500,6 +1748,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at Talent Zone Consultant",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1512,6 +1762,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Product Manager at Paytm",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1524,6 +1776,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at StockGro",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1536,6 +1790,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager (B2C) at Rupeek",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1548,6 +1804,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at GoodScore",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1560,6 +1818,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Product Manager(IITs, NITs, BITS, ) at Taglynk",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1572,6 +1832,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at Times Internet",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1584,6 +1846,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Product Manager at Moneyview",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1596,6 +1860,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Product Manager at OnArrival",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1608,6 +1874,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Technical Product Manager at InfluenConnect",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1620,6 +1888,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager  (AI/ML) at VectorStack",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1632,6 +1902,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Manager at ALIQAN Technologies",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1644,6 +1916,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Flavorcraft Innovations Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1656,6 +1930,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: City Operations Manager at Jungleworks",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1668,6 +1944,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Operations Manager at BVG India Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1680,6 +1958,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at RS Infomedia And Films Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1692,6 +1972,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at SUPR",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1704,6 +1986,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Home Canvas",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1716,6 +2000,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Giftech Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1728,6 +2014,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Operations Manager at Ascend Capital",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1740,6 +2028,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at Bonn Tonn",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1752,6 +2042,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Careerireland",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1764,6 +2056,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Lux Media Network",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1776,6 +2070,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at Fangled",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1788,6 +2084,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at SATHEE",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1800,6 +2098,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Operations Manager at The Agency Source",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1812,6 +2112,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at BCF Events Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1824,6 +2126,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at Headmost Lifestyle Industries LLP",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1836,6 +2140,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Hospitality Operations Manager at Stonehurst Lane",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1848,6 +2154,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at Kozmoze",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1860,6 +2168,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager (Startup Founding Team Role) at EasyConcpt",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1872,6 +2182,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Operations Manager at S & G Exports",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1884,6 +2196,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Field Operations Manager at Urban Company",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1896,6 +2210,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Manager at TP",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1908,6 +2224,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: E-commerce & Marketplace Operations Manager at Inara Home Decor",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 4
     },
     {
@@ -1920,6 +2238,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Consultant/Senior Consultant- Corporate Strategy at Deloitte",
+      "published_at": "2026-04-14",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1932,6 +2252,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Strategy & Transformation Manager at TTK Prestige Ltd",
+      "published_at": "2026-04-10",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1944,6 +2266,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Sr Manager, Strategy Operations at Walmart",
+      "published_at": "2026-04-23",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1956,6 +2280,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Consultant - Business Consulting at Infosys",
+      "published_at": "2026-04-12",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1968,6 +2294,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Senior Manager - Strategy & Partnerships at Swiggy",
+      "published_at": "2026-04-15",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1980,6 +2308,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Consultant - Business Consulting (Digital Transformation) at Infosys",
+      "published_at": "2026-04-15",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -1992,6 +2322,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Strategy and Operations Analyst at Prodigal",
+      "published_at": "2026-02-09",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2004,6 +2336,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Strategy and Operations Analyst (Fresher) at Prodigal",
+      "published_at": "2026-01-11",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2016,6 +2350,22 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Consultant/ senior Consultant/ Principal - Business Consulting (Oil & Gas) at Infosys",
+      "published_at": "2026-04-27",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Strategy Manager",
+      "company": "Trianz",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/strategy-manager-at-trianz-4401420566",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Strategy Manager at Trianz",
+      "published_at": "2026-04-15",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2028,18 +2378,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Head Operations @ Client at Compass Group India",
-      "score": 2
-    },
-    {
-      "title": "Manager",
-      "company": "Visa",
-      "location": "Bengaluru, Karnataka, India",
-      "experience": "0-3 years",
-      "salary": "Not disclosed",
-      "url": "https://in.linkedin.com/jobs/view/manager-at-visa-4399166186",
-      "source": "LinkedIn",
-      "job_type": "Full-time",
-      "description": "View on LinkedIn: Manager at Visa",
+      "published_at": "2026-04-13",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2052,6 +2392,36 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: General manager - Operations (Aviation Fuel) - Bangalore - GO/JC/2848/2026 at Golden Opportunities",
+      "published_at": "2026-04-30",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Manager",
+      "company": "Visa",
+      "location": "Bengaluru, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/manager-at-visa-4399166186",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Manager at Visa",
+      "published_at": "2026-04-13",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Senior Manager - Operations",
+      "company": "PwC Acceleration Center India",
+      "location": "Bengaluru East, Karnataka, India",
+      "experience": "0-3 years",
+      "salary": "Not disclosed",
+      "url": "https://in.linkedin.com/jobs/view/senior-manager-operations-at-pwc-acceleration-center-india-4350120061",
+      "source": "LinkedIn",
+      "job_type": "Full-time",
+      "description": "View on LinkedIn: Senior Manager - Operations at PwC Acceleration Center India",
+      "published_at": "2026-04-21",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2064,6 +2434,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Assistant Manager Supply Operation at redBus",
+      "published_at": "2026-04-10",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2076,6 +2448,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Supply Chain & Logistics Manager at Knoxx Foods",
+      "published_at": "2026-04-23",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2088,6 +2462,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Site Manager - Operations at SmartQ",
+      "published_at": "2026-04-13",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2100,54 +2476,8 @@ window.__JOBS_DATA__ = {
       "source": "LinkedIn",
       "job_type": "Full-time",
       "description": "View on LinkedIn: Assistant Manager-Operations at ITC Limited",
-      "score": 2
-    },
-    {
-      "title": "Business Development Sales",
-      "company": "Revolutionary Groups",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Development Sales at Revolutionary Groups",
-      "score": 2
-    },
-    {
-      "title": "Client Service Associate",
-      "company": "Transcendence",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Client Service Associate at Transcendence",
-      "score": 2
-    },
-    {
-      "title": "Client Servicing \u2013 B2B/Institutional Sales",
-      "company": "Suraagna Consultants",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Client Servicing \u2013 B2B/Institutional Sales at Suraagna Consultants",
-      "score": 2
-    },
-    {
-      "title": "Business Development Executive",
-      "company": "Smmart Training & Consultancy Services Private Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Development Executive at Smmart Training & Consultancy Services Private Limited",
+      "published_at": "2025-11-03",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2160,6 +2490,22 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Development Associate | Delhi (Freshers) at Echo Booom",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "Smmart Training & Consultancy Services Private Limited",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Development Executive at Smmart Training & Consultancy Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2172,30 +2518,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Development Specialist at Arsh Infosystems",
-      "score": 2
-    },
-    {
-      "title": "Career Counselor/Sr. Career Counselor",
-      "company": "Elevate X Solutions",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Career Counselor/Sr. Career Counselor at Elevate X Solutions",
-      "score": 2
-    },
-    {
-      "title": "Business Development Associate",
-      "company": "Echo Booom",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Development Associate at Echo Booom",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2208,6 +2532,50 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Career Counselor at CodeOut",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Client Service Associate",
+      "company": "Transcendence",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Client Service Associate at Transcendence",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Career Counselor/Sr. Career Counselor",
+      "company": "Elevate X Solutions",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Career Counselor/Sr. Career Counselor at Elevate X Solutions",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "GST & Accounting Assistant",
+      "company": "HDDESAI",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: GST & Accounting Assistant at HDDESAI",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2220,6 +2588,36 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: OD  & Research Executive at Liberation Coaches Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Client Servicing \u2013 B2B/Institutional Sales",
+      "company": "Suraagna Consultants",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Client Servicing \u2013 B2B/Institutional Sales at Suraagna Consultants",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Development Associate",
+      "company": "Echo Booom",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Development Associate at Echo Booom",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2232,66 +2630,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Strategy at VIZON",
-      "score": 2
-    },
-    {
-      "title": "Assistant Manager- Strategy",
-      "company": "Kotak Mahindra Asset Management Company",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Assistant Manager- Strategy at Kotak Mahindra Asset Management Company",
-      "score": 2
-    },
-    {
-      "title": "Strategy Associate",
-      "company": "CoverYou",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Strategy Associate at CoverYou",
-      "score": 2
-    },
-    {
-      "title": "Business Strategy Executive",
-      "company": "Property First",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Strategy Executive at Property First",
-      "score": 2
-    },
-    {
-      "title": "Business Strategy Associate",
-      "company": "Voix & Vision Worx",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Strategy Associate at Voix & Vision Worx",
-      "score": 2
-    },
-    {
-      "title": "Business Strategy Associate",
-      "company": "Ambrosia Botanical",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Business Strategy Associate at Ambrosia Botanical",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2304,6 +2644,78 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Strategy at Civiltech AI Developing Services LLC",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Assistant Manager- Strategy",
+      "company": "Kotak Mahindra Asset Management Company",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Assistant Manager- Strategy at Kotak Mahindra Asset Management Company",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Strategy Associate",
+      "company": "CoverYou",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Strategy Associate at CoverYou",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Strategy Executive",
+      "company": "Property First",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Strategy Executive at Property First",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Strategy Associate",
+      "company": "Voix & Vision Worx",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Strategy Associate at Voix & Vision Worx",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Strategy Associate",
+      "company": "Ambrosia Botanical",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Strategy%20Consultant/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Strategy Associate at Ambrosia Botanical",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2316,6 +2728,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Solution Consultant at VirtuBox Infotech Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2328,6 +2742,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant ERP at Fatima Sayed",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2340,6 +2756,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Career Consultant at PrimePathway",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2352,6 +2770,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Sales at RISER",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2364,6 +2784,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Admissions Consultant at Ensynapse Technique",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2376,6 +2798,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Strategic Business Development Manager at Netweb Technologies India Ltd.",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2388,6 +2812,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Brand Strategy Associate at Publicis Health",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2400,6 +2826,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Consultant at SkillLevel",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2412,6 +2840,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Consultant at Shaac",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2424,6 +2854,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Consultant at SkillsVerse",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2436,6 +2868,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Recruitment Consultant at Antal International Network",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2448,6 +2882,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Consultant at Shardul Singh",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2460,6 +2896,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant at ECOLOOM",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2472,6 +2910,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Educational Consultant at CareerDNA",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2484,6 +2924,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Travel Consultant at Far East Group",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2496,6 +2938,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Recruitment Consultant at Chief Scholar Consulting Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2508,6 +2952,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant at Edugyan Infotech Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2520,6 +2966,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Recruitment Consultant at ICS Consultancy Services",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2532,6 +2980,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Parent Relationship Manager at Orchids International School",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2544,6 +2994,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Admission Counselor at UpGrad",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2556,6 +3008,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Education Counselor at Alvineient",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2568,6 +3022,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Academic Counselor at Alvineient",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2580,6 +3036,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Career Advisor \u2013 Sales at Alvineient",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2592,6 +3050,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Career Counselor at Zell Education",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2604,6 +3064,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Academic Counselor at WeMakeScholars",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2616,6 +3078,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Career Counselor at PrimePathway",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2628,6 +3092,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Admission Counsellor at Masters' Union",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2640,6 +3106,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Education Counsellor at Alvineient",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2652,6 +3120,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Student Counselor Associate at WeMakeScholars",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2664,6 +3134,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Travel Consultant at Palki Travel",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2676,6 +3148,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Performance Marketing Manager (Meta Ads/Media Buyer) at Hakistop Ltd. (New York, United States)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2688,6 +3162,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Performance Marketing Manager - (Meta & Google) at Epigroww Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2700,6 +3176,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Manager at DECG INTERNATIONAL",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2712,6 +3190,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Performance Marketing Manager at D'Moksha Homes",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2724,6 +3204,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Manager at Giftech Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2736,6 +3218,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Marketing Manager at Mentoria",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2748,6 +3232,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Manager \u2013 Web & Performance Marketing at Vega Visionary Training FZE",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2760,6 +3246,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Travelbot Guides Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2772,6 +3260,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Social Media Marketing Manager at SciAstra Education Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2784,6 +3274,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at The Builders Club",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2796,6 +3288,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Social Media Marketing Manager at Agno Talents",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2808,6 +3302,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Reviews & Influencer Marketing Manager at RestoSmile",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2820,6 +3316,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Bright Idea Studios",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2832,6 +3330,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Social Media Marketing Manager at NexGen Innovators IT Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2844,6 +3344,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Facebook Marketing Manager at The Good Food Company",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2856,6 +3358,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Medisage",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2868,6 +3372,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Marketing Manager at EDU TANTR",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2880,6 +3386,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Performance Marketing Manager (DTC \u2013 Meta & Google) at Epigroww Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2892,6 +3400,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Senior Digital Marketing Manager at Dole's Music",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2904,6 +3414,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Aureva Wealth Advisors Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2916,6 +3428,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Event And Marketing Manager at Zingo Kids",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2928,6 +3442,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at MARKETING MOVES MEDIA PRIVATE LIMITED",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2940,6 +3456,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Aayushi Saraf",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2952,6 +3470,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager (Early Career) at Coach Kaushal",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2964,6 +3484,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at WebMob Technologies",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2976,6 +3498,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Careerireland",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -2988,6 +3512,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Osumare",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3000,6 +3526,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Social Media Marketing Manager at On Fleek Marketing",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3012,6 +3540,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Ski Hospitality And Tourism",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3024,6 +3554,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at FI NINE ESTATES OPC PVT LTD",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3036,6 +3568,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Amit Kothari",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3048,6 +3582,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Liftmyads Media",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3060,6 +3596,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Intelehealth",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3072,6 +3610,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Krishmadh Healthcare",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3084,6 +3624,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Parabola Trip",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3096,6 +3638,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at Herakraft Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3108,6 +3652,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Social Media Marketing Manager at Shubham Production",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3120,18 +3666,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Digital Marketing Manager at UA Consultants",
-      "score": 2
-    },
-    {
-      "title": "IndiaMART Sales Manager",
-      "company": "Adhyatmik",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Sales%20Manager/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: IndiaMART Sales Manager at Adhyatmik",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3144,6 +3680,22 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Nandighosh Trading Agency",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "IndiaMART Sales Manager",
+      "company": "Adhyatmik",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Sales%20Manager/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: IndiaMART Sales Manager at Adhyatmik",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3156,18 +3708,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Field Sales Manager at Wallnut Building Solutions India Private Limited",
-      "score": 2
-    },
-    {
-      "title": "Corporate Sales Manager",
-      "company": "Raajratna Electrodes Pvt Ltd",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Sales%20Manager/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Corporate Sales Manager at Raajratna Electrodes Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3180,6 +3722,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager (Corporate IT Training, Direct Sales) at SnapFind",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3192,6 +3736,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager (Consulting/Direct Sales) at SnapFind",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3204,6 +3750,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Ion Exchange India Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3216,6 +3764,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Sales Manager at Sir H.N. Reliance Foundation Hospital & Research Centre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3228,6 +3778,22 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager - B2B at HealthClickAway",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Corporate Sales Manager",
+      "company": "Raajratna Electrodes Pvt Ltd",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Sales%20Manager/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Corporate Sales Manager at Raajratna Electrodes Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3240,6 +3806,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Garg Residency Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3252,6 +3820,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Stockarea",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3264,6 +3834,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at GI Water Tech Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3276,6 +3848,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at DotConverse",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3288,6 +3862,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager ( Dealer Development) at Anantaa GSK I Group",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3300,6 +3876,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Sterlion Finance Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3312,6 +3890,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Expertrons",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3324,6 +3904,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Field Sales Manager at Aditya Birla Capital Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3336,6 +3918,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at PDS International Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3348,6 +3932,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Area Sales Manager at TruSmile Labs",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3360,6 +3946,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at IndoQatar Projects",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3372,6 +3960,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Sales Manager at Vastu Automation Studio",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3384,6 +3974,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Room Sales Manager at The Shalimar Hotel",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3396,6 +3988,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at 958 Real Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3408,6 +4002,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Sumit  Mishra (Noida, India)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3420,6 +4016,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Trusted Brothers Realty LLP",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3432,6 +4030,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Sales Manager at Heptaverse Technologies Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3444,6 +4044,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Bhagya Homes",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3456,6 +4058,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Jeyanth Ayyapparaj",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3468,6 +4072,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Area Sales Manager at Shyn Medicals",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3480,6 +4086,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Cenvar | Chetak Mnufacturing Company",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3492,6 +4100,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Glocal Infomart Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3504,6 +4114,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Assistant Sales Manager at Riverdale Aerovista",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3516,6 +4128,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Area Sales Manager at STEMplify",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3528,6 +4142,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Unit Sales Manager at Supro Consulting",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3540,6 +4156,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at STEPUPREALITY",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3552,6 +4170,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Yalavarthi Granites And Furniture (P) Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3564,6 +4184,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager/Sales Expert \u2013 Book Publishing Industry at BLUEINKHOUSE",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3576,6 +4198,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at Levons Technologies Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3588,6 +4212,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Field Sales Manager at Exprs Techno Logistics Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3600,6 +4226,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Incra Soft Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3612,6 +4240,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Honest Marketing Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3624,6 +4254,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Corporate Sales Manager at YellowGreen",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3636,18 +4268,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales Manager at Space India Builders & Developers",
-      "score": 2
-    },
-    {
-      "title": "Sales Manager",
-      "company": "MoneyTree Realty Services Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Sales%20Manager/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Sales Manager at MoneyTree Realty Services Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3660,6 +4282,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant (MedTech) at IQVIA",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3672,6 +4296,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Analyst/Associate Consultant-SFE at IQVIA",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3684,6 +4310,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant--Finance at Innovation Scaleup Advisors Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3696,6 +4324,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant - Digital, Vogue at Cond Nast India",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3708,6 +4338,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant- ITGC at Uniqus Consultech Inc.",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3720,6 +4352,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant  Surgical Gastroenterology at MGM Healthcare",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3732,6 +4366,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant  Neurology at MGM Healthcare",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3744,6 +4380,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant at Future Market Insights",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3756,6 +4394,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Associate Consultant at Talent Corner HR Services Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3768,114 +4408,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Analyst/Associate Consultant - Corporate Treasury at KPMG India",
-      "score": 2
-    },
-    {
-      "title": "Digital Marketing Specialist",
-      "company": "AcademicGuru",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Digital Marketing Specialist at AcademicGuru",
-      "score": 2
-    },
-    {
-      "title": "Digital Marketing Specialist",
-      "company": "Infrasity",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Digital Marketing Specialist at Infrasity",
-      "score": 2
-    },
-    {
-      "title": "Content Operations Creative",
-      "company": "ContraMinds Labs",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Content Operations Creative at ContraMinds Labs",
-      "score": 2
-    },
-    {
-      "title": "Management Graduate",
-      "company": "Equitypandit Financial Services Private Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Management Graduate at Equitypandit Financial Services Private Limited",
-      "score": 2
-    },
-    {
-      "title": "Junior Social Media Marketing Executive",
-      "company": "Daxta Labs Private Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Junior Social Media Marketing Executive at Daxta Labs Private Limited",
-      "score": 2
-    },
-    {
-      "title": "System Engineer (Backend)",
-      "company": "UpGrad Rekrut",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: System Engineer (Backend) at UpGrad Rekrut",
-      "score": 2
-    },
-    {
-      "title": "Associate Content Writer",
-      "company": "BrightRays",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Associate Content Writer at BrightRays",
-      "score": 2
-    },
-    {
-      "title": "Digital Marketing Executive",
-      "company": "Meta Branding",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Digital Marketing Executive at Meta Branding",
-      "score": 2
-    },
-    {
-      "title": "Senior Content Writer",
-      "company": "Infrasity",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Senior Content Writer at Infrasity",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3888,6 +4422,120 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: System Engineer (Frontend) at UpGrad Rekrut",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "System Engineer (Backend)",
+      "company": "UpGrad Rekrut",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: System Engineer (Backend) at UpGrad Rekrut",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Digital Marketing Executive",
+      "company": "Meta Branding",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Digital Marketing Executive at Meta Branding",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Digital Marketing Specialist",
+      "company": "AcademicGuru",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Digital Marketing Specialist at AcademicGuru",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Senior Content Writer",
+      "company": "Infrasity",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Senior Content Writer at Infrasity",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Associate Content Writer",
+      "company": "BrightRays",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Associate Content Writer at BrightRays",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Management Graduate",
+      "company": "Equitypandit Financial Services Private Limited",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Management Graduate at Equitypandit Financial Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Junior Social Media Marketing Executive",
+      "company": "Daxta Labs Private Limited",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Junior Social Media Marketing Executive at Daxta Labs Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Digital Marketing Specialist",
+      "company": "Infrasity",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Digital Marketing Specialist at Infrasity",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3900,6 +4548,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: DevOps Engineer at DigiPlus IT",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3912,6 +4562,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineer Trainee at SIGMATECH",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3924,6 +4576,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: AWS DevOps Engineer at TwinLine Business Solutions Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3936,6 +4590,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: AWS DevOps Engineer at Roxiler Systems",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3948,6 +4604,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: GTM Engineer at Precise Leads",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3960,6 +4618,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineer Trainee at Spectra Luminaires Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3972,6 +4632,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineer - Mechanical at Sagar Defence Engineering Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3984,6 +4646,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Linux Engineer at VIZON",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -3996,6 +4660,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Software Engineer at Interface Design Associates Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4008,6 +4674,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Growth Engineer at Surdeep Singh",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4020,6 +4688,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: DevOps Engineer at IESoft Technologies Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4032,30 +4702,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineer Trainee - Technical Sales at SEW-EURODRIVE India Private Limited",
-      "score": 2
-    },
-    {
-      "title": "Software Developer (Graduate)",
-      "company": "TrainingMug",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Software Developer (Graduate) at TrainingMug",
-      "score": 2
-    },
-    {
-      "title": "Java Developer (Graduate)",
-      "company": "TrainingMug",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Java Developer (Graduate) at TrainingMug",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4068,6 +4716,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Rapid Prototyping Engineer at Maker Global",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4080,6 +4730,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: IT Support Engineer at WCS India Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4092,6 +4744,36 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Mechanical Design Engineer at Kalbhorz Electric",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Software Developer (Graduate)",
+      "company": "TrainingMug",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Software Developer (Graduate) at TrainingMug",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Java Developer (Graduate)",
+      "company": "TrainingMug",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Java Developer (Graduate) at TrainingMug",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4104,6 +4786,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Management Trainee at NUPI",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4116,6 +4800,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Management Trainee at Morphedo",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4128,6 +4814,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Management Trainee at BiofuelCircle",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4140,6 +4828,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Mechatronics Engineer at Fusie Engineers",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4152,6 +4842,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Electrical Engineer at Authentic Engineers",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4164,6 +4856,22 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Adex Media Hub",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "company": "Social Lords",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Search Engine Optimization (SEO) at Social Lords",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4176,6 +4884,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at AisTech Solution",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4188,6 +4898,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Macro Webber",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4200,6 +4912,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Career Favor",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4212,6 +4926,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at After Passout Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4224,6 +4940,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Superwork",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4236,6 +4954,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Intella Education Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4248,6 +4968,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Search Engine Optimization (SEO) at Seventh Triangle Consulting",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4260,6 +4982,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Mechanical Product Designer & 3D Printing Engineer at 3D Paradise",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4272,6 +4996,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineering Trainee - Sales at Naatscorp Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4284,78 +5010,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Graduate Engineering Traineee Mechanical at Indication Instruments Limited",
-      "score": 2
-    },
-    {
-      "title": "Trained Graduate Teacher (Classes 6 To 10)",
-      "company": "AxureOne",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Trained Graduate Teacher (Classes 6 To 10) at AxureOne",
-      "score": 2
-    },
-    {
-      "title": "Any Graduate-Freshers-Customer Support Roles",
-      "company": "Live Connections",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Any Graduate-Freshers-Customer Support Roles at Live Connections",
-      "score": 2
-    },
-    {
-      "title": "Testing & Commissioning Engineer",
-      "company": "NS ENGINEERS",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Testing & Commissioning Engineer at NS ENGINEERS",
-      "score": 2
-    },
-    {
-      "title": "Protection Relay Engineer",
-      "company": "NS ENGINEERS",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Protection Relay Engineer at NS ENGINEERS",
-      "score": 2
-    },
-    {
-      "title": "Nondestructive Testing Engineer",
-      "company": "Ultratech Engineers",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Nondestructive Testing Engineer at Ultratech Engineers",
-      "score": 2
-    },
-    {
-      "title": "Junior Civil Engineer",
-      "company": "True North Projects & Engineers",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Junior Civil Engineer at True North Projects & Engineers",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4368,30 +5024,64 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: AI Tester/QA Engineer (AI/ML Systems) at Subash Vijay Associates (SVA)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
-      "title": "Payment Processing Associate",
-      "company": "Wehire Talent Solutions",
+      "title": "Bioprocess/Biochemical Engineer - Upstream & Downstream R&D",
+      "company": "VIA Energicals",
       "location": "Remote",
       "experience": "0-2 years",
       "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
       "source": "Internshala",
       "job_type": "Full-time",
-      "description": "View details on Internshala: Payment Processing Associate at Wehire Talent Solutions",
+      "description": "View details on Internshala: Bioprocess/Biochemical Engineer - Upstream & Downstream R&D at VIA Energicals",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
-      "title": "INTERNATIONAL RAILWAY ASSOCIATE",
-      "company": "Wehire Talent Solutions",
+      "title": "Testing & Commissioning Engineer",
+      "company": "NS ENGINEERS",
       "location": "Remote",
       "experience": "0-2 years",
       "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
       "source": "Internshala",
       "job_type": "Full-time",
-      "description": "View details on Internshala: INTERNATIONAL RAILWAY ASSOCIATE at Wehire Talent Solutions",
+      "description": "View details on Internshala: Testing & Commissioning Engineer at NS ENGINEERS",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Protection Relay Engineer",
+      "company": "NS ENGINEERS",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Protection Relay Engineer at NS ENGINEERS",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Nondestructive Testing Engineer",
+      "company": "Ultratech Engineers",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Graduate%20Engineer/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Nondestructive Testing Engineer at Ultratech Engineers",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4404,6 +5094,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations & Admin Coordinator (Female) at Young Gymnast 101",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4416,30 +5108,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Manager: Corporate Agency/ Business Development/ Financial Sales at HDFC Life",
-      "score": 2
-    },
-    {
-      "title": "Relationship Manager",
-      "company": "Equitypandit Financial Services Private Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Relationship Manager at Equitypandit Financial Services Private Limited",
-      "score": 2
-    },
-    {
-      "title": "Field Operations & Language Documentation Associate",
-      "company": "Hanuram Healthtech Private Limited",
-      "location": "Remote",
-      "experience": "0-2 years",
-      "salary": "Not disclosed",
-      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
-      "source": "Internshala",
-      "job_type": "Full-time",
-      "description": "View details on Internshala: Field Operations & Language Documentation Associate at Hanuram Healthtech Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4452,6 +5122,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Wealth Advisor at Equitypandit Financial Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4464,6 +5136,64 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Helpdesk Assistant Manager at The Agency Source",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Relationship Manager",
+      "company": "Equitypandit Financial Services Private Limited",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Relationship Manager at Equitypandit Financial Services Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Development Associate",
+      "company": "Deep Connection",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Development Associate at Deep Connection",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Field Operations & Language Documentation Associate",
+      "company": "Hanuram Healthtech Private Limited",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Field Operations & Language Documentation Associate at Hanuram Healthtech Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
+      "score": 2
+    },
+    {
+      "title": "Business Development Executive",
+      "company": "Swing Saga",
+      "location": "Remote",
+      "experience": "0-2 years",
+      "salary": "Not disclosed",
+      "url": "https://internshala.com/jobs/keywords-Business%20Operations/location-Bangalore",
+      "source": "Internshala",
+      "job_type": "Full-time",
+      "description": "View details on Internshala: Business Development Executive at Swing Saga",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4476,6 +5206,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Operations at Newton School",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4488,6 +5220,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Business Operations\u2013 Expansion at Cake L'amore",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4500,6 +5234,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at Wappgo IT Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4512,6 +5248,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at RideAway Solutions Pvt. Ltd.",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4524,6 +5262,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at Rousewild Productions",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4536,6 +5276,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at Namaah Pvt Ltd",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4548,6 +5290,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at RECRIVIO",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4560,6 +5304,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at Grexa AI Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4572,6 +5318,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at DigiVibrant Techsolutions Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4584,6 +5332,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at Farmdidi",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4596,6 +5346,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations at ShyamBhajo Jewellers Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4608,6 +5360,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Telesales & Operations at Redraz International",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4620,6 +5374,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Associate at Habio (Unibode Living Solutions Private Limited)",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4632,6 +5388,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Executive at Waynet",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4644,6 +5402,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Executive at Blown Studio Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4656,6 +5416,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Management Trainee at Talview",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4668,6 +5430,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Sales and Operations at Right Holiday Technologies Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4680,6 +5444,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Customer Success & Operations at Suhaus Designers LLP",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4692,6 +5458,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Product Operations Trainee at DOTIX",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4704,6 +5472,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Benefit Verification Specialist (Health Insurance, USA) at SnapFind",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4716,6 +5486,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Back Office Executive at Aarvi Encon Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4728,6 +5500,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Trading Operations Associate at QuickHyre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4740,6 +5514,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Asset Servicing Associate at QuickHyre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4752,6 +5528,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Tax Operations Associate at QuickHyre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4764,6 +5542,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Clearing And Settlement Associate at QuickHyre",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4776,6 +5556,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Founders Office (Strategy, Operations & People) at Earnest Fintech Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4788,6 +5570,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Front Office Executive at Spinfluence Technology",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4800,6 +5584,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Executive Assistant To The CEO at TRISKN",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4812,6 +5598,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Executive at Eclipse Financial Management",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4824,6 +5612,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Operations Executive at Shruti Venkat",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4836,6 +5626,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Purchase Head at Allo Innoware",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4848,6 +5640,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Executive Assistant To The Director at Arkah Group (OPC) Pvt. Ltd.",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4860,6 +5654,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Personal Assistant at Key Castle Properties Private Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4872,6 +5668,8 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Strategy & Operations Associate \u2013 MD\u2019s Office at Supreme Securities Limited",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     },
     {
@@ -4884,8 +5682,10 @@ window.__JOBS_DATA__ = {
       "source": "Internshala",
       "job_type": "Full-time",
       "description": "View details on Internshala: Junior Chief Of Staff at Pawzz Foundation",
+      "published_at": "2026-05-02",
+      "discovered_at": "2026-05-02",
       "score": 2
     }
   ],
-  "total_ranked": 407
+  "total_ranked": 406
 };

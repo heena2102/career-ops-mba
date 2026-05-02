@@ -2,6 +2,43 @@ import json
 import os
 from datetime import datetime
 
+def parse_date(date_str):
+    from datetime import datetime, timedelta
+    import re
+    
+    if not date_str:
+        return datetime.now().strftime("%Y-%m-%d")
+    
+    date_str = date_str.lower()
+    
+    # Handle ISO format
+    if re.match(r'\d{4}-\d{2}-\d{2}', date_str):
+        return date_str[:10]
+        
+    # Handle Indeed/LinkedIn relative dates
+    now = datetime.now()
+    if 'today' in date_str or 'just now' in date_str or '0 days' in date_str:
+        return now.strftime("%Y-%m-%d")
+    if 'yesterday' in date_str or '1 day ago' in date_str:
+        return (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    
+    days_match = re.search(r'(\d+)\s+day', date_str)
+    if days_match:
+        days = int(days_match.group(1))
+        return (now - timedelta(days=days)).strftime("%Y-%m-%d")
+        
+    weeks_match = re.search(r'(\d+)\s+week', date_str)
+    if weeks_match:
+        weeks = int(weeks_match.group(1))
+        return (now - timedelta(weeks=weeks)).strftime("%Y-%m-%d")
+        
+    months_match = re.search(r'(\d+)\s+month', date_str)
+    if months_match:
+        months = int(months_match.group(1))
+        return (now - timedelta(days=months*30)).strftime("%Y-%m-%d")
+        
+    return now.strftime("%Y-%m-%d")
+
 def rank_jobs():
     jobs_path = '../dashboard/data/jobs.json'
     js_path = '../dashboard/data/jobs.js'
@@ -22,6 +59,12 @@ def rank_jobs():
         title = job.get('title', '').lower()
         location = job.get('location', '').lower()
         experience = job.get('experience', '').lower()
+        
+        # Ensure dates are present and normalized
+        if 'discovered_at' not in job:
+            job['discovered_at'] = datetime.now().strftime("%Y-%m-%d")
+        
+        job['published_at'] = parse_date(job.get('published_at'))
         
         score = 1
         

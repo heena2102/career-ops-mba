@@ -24,6 +24,7 @@ class JobDashboard {
         document.getElementById('location-filter').addEventListener('change', () => this.filterJobs());
         document.getElementById('source-filter').addEventListener('change', () => this.filterJobs());
         document.getElementById('job-type-filter').addEventListener('change', () => this.filterJobs());
+        document.getElementById('sort-by').addEventListener('change', () => this.filterJobs());
 
         // Buttons
         document.getElementById('clear-filters').addEventListener('click', () => this.clearFilters());
@@ -75,6 +76,7 @@ class JobDashboard {
         const location = document.getElementById('location-filter').value;
         const source = document.getElementById('source-filter').value;
         const jobType = document.getElementById('job-type-filter').value;
+        const sortBy = document.getElementById('sort-by').value;
 
         this.filteredJobs = this.allJobs.filter(job => {
             const matchesSearch = 
@@ -95,12 +97,34 @@ class JobDashboard {
             return matchesSearch && matchesLocation && matchesSource && matchesJobType;
         });
 
+        // Apply Sorting
+        if (sortBy === 'score') {
+            this.filteredJobs.sort((a, b) => (b.score || 0) - (a.score || 0));
+        } else if (sortBy === 'published_at') {
+            // Sort by published_at (recent first), then by discovered_at (recent first)
+            this.filteredJobs.sort((a, b) => {
+                const dateA = new Date(a.published_at || 0);
+                const dateB = new Date(b.published_at || 0);
+                if (dateB - dateA !== 0) return dateB - dateA;
+                return new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0);
+            });
+        } else if (sortBy === 'discovered_at') {
+            // Sort by discovered_at (recent first), then by published_at (recent first)
+            this.filteredJobs.sort((a, b) => {
+                const dateA = new Date(a.discovered_at || 0);
+                const dateB = new Date(b.discovered_at || 0);
+                if (dateB - dateA !== 0) return dateB - dateA;
+                return new Date(b.published_at || 0) - new Date(a.published_at || 0);
+            });
+        }
+
         this.renderJobs();
     }
 
     renderJobs() {
         const container = document.getElementById('jobs-grid');
         const noResults = document.getElementById('no-results');
+        const sortBy = document.getElementById('sort-by').value;
 
         if (this.filteredJobs.length === 0) {
             container.innerHTML = '';
@@ -109,7 +133,35 @@ class JobDashboard {
         }
 
         noResults.style.display = 'none';
-        container.innerHTML = this.filteredJobs.map(job => this.createJobCard(job)).join('');
+
+        if (sortBy === 'score') {
+            container.innerHTML = this.filteredJobs.map(job => this.createJobCard(job)).join('');
+        } else {
+            // Group by date
+            const groups = {};
+            this.filteredJobs.forEach(job => {
+                const date = job[sortBy] || 'Unknown Date';
+                if (!groups[date]) groups[date] = [];
+                groups[date].push(job);
+            });
+
+            // Get sorted dates (descending)
+            const sortedDates = Object.keys(groups).sort((a, b) => new Date(b) - new Date(a));
+
+            let html = '';
+            sortedDates.forEach(date => {
+                const dateLabel = date === 'Unknown Date' ? date : new Date(date).toLocaleDateString('en-GB');
+                html += `
+                    <div class="date-section">
+                        <h2 class="date-header">${dateLabel}</h2>
+                        <div class="date-jobs-grid">
+                            ${groups[date].map(job => this.createJobCard(job)).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
 
         // Attach save button listeners
         document.querySelectorAll('.save-job-btn').forEach(btn => {
@@ -120,11 +172,12 @@ class JobDashboard {
         });
 
         // Attach view details listeners
-        document.querySelectorAll('.job-card').forEach((card, index) => {
+        document.querySelectorAll('.job-card').forEach((card) => {
             card.addEventListener('click', (event) => {
-                // Don't open modal if clicking buttons
                 if (event.target.closest('.job-actions')) return;
-                this.showJobDetails(this.filteredJobs[index]);
+                const jobId = card.querySelector('.save-job-btn').dataset.jobId;
+                const job = this.allJobs.find(j => this.getJobId(j) === jobId);
+                if (job) this.showJobDetails(job);
             });
         });
     }
@@ -142,8 +195,15 @@ class JobDashboard {
             rankingClass = 'low-score';
         }
 
+        const pubDate = job.published_at ? new Date(job.published_at).toLocaleDateString('en-GB') : 'N/A';
+        const discDate = job.discovered_at ? new Date(job.discovered_at).toLocaleDateString('en-GB') : 'N/A';
+
         return `
             <div class="job-card ${isSaved ? 'saved' : ''} ${rankingClass}">
+                <div class="job-dates">
+                    <span>🗓️ Published: ${pubDate}</span>
+                    <span>🔍 Scanned: ${discDate}</span>
+                </div>
                 ${score > 0 ? `<div class="job-score">🎯 Match Score: ${score}/5</div>` : ''}
                 <div class="job-header">
                     <h3 class="job-title">${this.escapeHtml(job.title)}</h3>
